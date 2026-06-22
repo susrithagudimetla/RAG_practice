@@ -1,0 +1,192 @@
+[
+  {
+    "question": "Why did Chelsea sack Adrian Mutu?",
+    "answer": "He failed a drugs test.",
+    "ground_truth": { "article_id": 0, "chunk_id": 0 }
+  },
+  {
+    "question": "What did Mutu test positive for?",
+    "answer": "A banned substance.",
+    "ground_truth": { "article_id": 0, "chunk_id": 0 }
+  },
+  {
+    "question": "What drug policy does Chelsea say it has?",
+    "answer": "A zero tolerance policy towards drugs.",
+    "ground_truth": { "article_id": 0, "chunk_id": 1 }
+  },
+  {
+    "question": "How many goals did Mutu score in his first five games?",
+    "answer": "Six goals.",
+    "ground_truth": { "article_id": 0, "chunk_id": 1 }
+  },
+  {
+    "question": "What ban does FIFA's disciplinary code say should follow a first doping offence?",
+    "answer": "A sixmonth ban.",
+    "ground_truth": { "article_id": 0, "chunk_id": 2 }
+  },
+  {
+    "question": "Which athlete produced another world pole vault record at the Birmingham meet?",
+    "answer": "Yelena Isinbayeva.",
+    "ground_truth": { "article_id": 1, "chunk_id": 0 }
+  },
+  {
+    "question": "Who looked good and was very positive at the athletics meet?",
+    "answer": "Kelly Holmes.",
+    "ground_truth": { "article_id": 1, "chunk_id": 1 }
+  },
+  {
+    "question": "Who finished second in the women's national 400m race?",
+    "answer": "Kim Wall.",
+    "ground_truth": { "article_id": 1, "chunk_id": 5 }
+  },
+  {
+    "question": "Why was Mark Lewis-Francis disqualified?",
+    "answer": "For a false start.",
+    "ground_truth": { "article_id": 1, "chunk_id": 4 }
+  },
+  {
+    "question": "Which Kenyan was well beaten by Markos Geneti?",
+    "answer": "Kenenisa Bekele.",
+    "ground_truth": { "article_id": 1, "chunk_id": 8 }
+  },
+  {
+    "question": "Which Arsenal player described the tunnel fracas after Manchester United's win?",
+    "answer": "Edu.",
+    "ground_truth": { "article_id": 2, "chunk_id": 0 }
+  },
+  {
+    "question": "What did Edu say he did not see being thrown at anyone?",
+    "answer": "Soup.",
+    "ground_truth": { "article_id": 2, "chunk_id": 0 }
+  },
+  {
+    "question": "Which player was charged with serious foul play after the tunnel incident?",
+    "answer": "Ruud van Nistelrooy.",
+    "ground_truth": { "article_id": 2, "chunk_id": 2 }
+  },
+  {
+    "question": "Who said the victory over England was a special win?",
+    "answer": "Ronan O'Gara.",
+    "ground_truth": { "article_id": 3, "chunk_id": 0 }
+  },
+  {
+    "question": "Which Ireland captain scored his side's only try?",
+    "answer": "Brian O'Driscoll.",
+    "ground_truth": { "article_id": 3, "chunk_id": 2 }
+  },
+  {
+    "question": "Which coach was surprised Andy Robinson was certain Mark Cueto was onside?",
+    "answer": "Eddie O'Sullivan.",
+    "ground_truth": { "article_id": 3, "chunk_id": 3 }
+  },
+  {
+    "question": "Who insisted Ireland were happy to handle the pressure of being favourites?",
+    "answer": "Brian O'Driscoll.",
+    "ground_truth": { "article_id": 3, "chunk_id": 4 }
+  },
+  {
+    "question": "Which Liverpool forward was uncertain if he remained part of Rafa Benitez's plans?",
+    "answer": "Milan Baros.",
+    "ground_truth": { "article_id": 4, "chunk_id": 0 }
+  },
+  {
+    "question": "Which cup final was Milan Baros dropped for?",
+    "answer": "The Carling Cup final.",
+    "ground_truth": { "article_id": 4, "chunk_id": 0 }
+  },
+  {
+    "question": "Which Wasps scrumhalf was recalled to England's training squad?",
+    "answer": "Matt Dawson.",
+    "ground_truth": { "article_id": 6, "chunk_id": 0 }
+  },
+  {
+    "question": "Which centre was also selected for England's training squad?",
+    "answer": "Mathew Tait.",
+    "ground_truth": { "article_id": 6, "chunk_id": 1 }
+  },
+  {
+    "question": "Which prop was called up after Phil Vickery's broken arm?",
+    "answer": "Duncan Bell.",
+    "ground_truth": { "article_id": 6, "chunk_id": 1 }
+  },
+  {
+    "question": "Which player was promoted from the senior national academy to contest the number nine jersey?",
+    "answer": "Harry Ellis.",
+    "ground_truth": { "article_id": 6, "chunk_id": 5 }
+  },
+  {
+    "question": "Who scored the opener for Manchester United against Exeter City?",
+    "answer": "Cristiano Ronaldo.",
+    "ground_truth": { "article_id": 7, "chunk_id": 0 }
+  },
+  {
+    "question": "How many minutes after kickoff did Ronaldo score the opener?",
+    "answer": "Nine minutes.",
+    "ground_truth": { "article_id": 7, "chunk_id": 0 }
+  },
+  {
+    "question": "Who rounded Jones and slotted into an empty net to book a home tie with Middlesbrough?",
+    "answer": "Wayne Rooney.",
+    "ground_truth": { "article_id": 7, "chunk_id": 6 }
+  },
+  {
+    "question": "Why was Exeter's low effort ruled out?",
+    "answer": "Offside.",
+    "ground_truth": { "article_id": 7, "chunk_id": 5 }
+  },
+  {
+    "question": "Which England centre was passed fit for Sunday's Six Nations clash with Ireland?",
+    "answer": "Olly Barkley.",
+    "ground_truth": { "article_id": 8, "chunk_id": 0 }
+  },
+  {
+    "question": "Which prop could make his England debut after Phil Vickery's broken arm?",
+    "answer": "Duncan Bell.",
+    "ground_truth": { "article_id": 8, "chunk_id": 1 }
+  },
+  {
+    "question": "Which uncapped Sale Sharks prop was mentioned as a more likely selection for England?",
+    "answer": "Andrew Sheridan.",
+    "ground_truth": { "article_id": 8, "chunk_id": 3 }
+  },
+  {
+    "question": "Who faced a possible seven-match FA ban?",
+    "answer": "David Prutton.",
+    "ground_truth": { "article_id": 10, "chunk_id": 0 }
+  },
+  {
+    "question": "How many charges of improper conduct did David Prutton admit to?",
+    "answer": "Two.",
+    "ground_truth": { "article_id": 10, "chunk_id": 0 }
+  },
+  {
+    "question": "Which manager believed the FA would throw the book at Prutton?",
+    "answer": "Harry Redknapp.",
+    "ground_truth": { "article_id": 10, "chunk_id": 1 }
+  },
+  {
+    "question": "Who did Prutton apologise to after his wild tackle?",
+    "answer": "Robert Pires.",
+    "ground_truth": { "article_id": 10, "chunk_id": 3 }
+  },
+  {
+    "question": "Who said there was no chance history would repeat itself when Chelsea faced Barcelona?",
+    "answer": "Marcel Desailly.",
+    "ground_truth": { "article_id": 12, "chunk_id": 0 }
+  },
+  {
+    "question": "Which player scored two goals in the first leg against Barcelona?",
+    "answer": "Tore Andre Flo.",
+    "ground_truth": { "article_id": 12, "chunk_id": 1 }
+  },
+  {
+    "question": "Who also scored in that first leg alongside Tore Andre Flo?",
+    "answer": "Gianfranco Zola.",
+    "ground_truth": { "article_id": 12, "chunk_id": 1 }
+  },
+  {
+    "question": "Which Qatari club was Marcel Desailly playing for at the time?",
+    "answer": "Al-Gharafa.",
+    "ground_truth": { "article_id": 12, "chunk_id": 2 }
+  }
+]
