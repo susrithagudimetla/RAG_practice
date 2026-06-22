@@ -1,0 +1,322 @@
+[
+  {
+    "question": "What milestone did the EastEnders episode marking Dirty Den's death achieve in viewership?",
+    "answer": "More than 16 million people saw Dirty Den Watts killed off on a Friday marking EastEnders' 20th anniversary according to unofficial figures. The audience for the BBC One one-hour special averaged 14 million and peaked at 16 million in the last 15 minutes.",
+    "ground_truth_chunk": 11798
+  },
+  {
+    "question": "How long after Dirty Den was 'shot' in EastEnders did he return to the show?",
+    "answer": "Den's death in the anniversary episode came 14 years after he was supposedly shot in 1989, and he had come back to the show in September 2003.",
+    "ground_truth_chunk": 11798
+  },
+  {
+    "question": "Who made Britain's first mobile phone call, and on which network was it made?",
+    "answer": "Britain's first mobile phone call was made across the Vodafone network on 1 January 1985 by veteran comedian Ernie Wise.",
+    "ground_truth_chunk": 9125
+  },
+  {
+    "question": "Approximately what proportion of Britons owned a mobile handset at the time the mobile phone 20th anniversary article was written?",
+    "answer": "Almost two-thirds of Britons owned a handset at that time, and mobiles had become so popular that many people used their handset as their only phone and rarely used a landline.",
+    "ground_truth_chunk": 9125
+  },
+  {
+    "question": "How many text messages were sent in the UK between midnight on 31 December and midnight on 1 January, and what record did this set?",
+    "answer": "111 million text messages were sent in the UK during that period. It was the highest ever daily total recorded by the Mobile Data Association (MDA), representing an increase of 43% on the previous year's figures.",
+    "ground_truth_chunk": 2866
+  },
+  {
+    "question": "What made the Zafi-D (Zafid) virus unusual compared to other Windows viruses?",
+    "answer": "The Zafi-D virus was unusual because it translated the Christmas greeting on its subject line into the language of the person receiving the infected email. This multilingual ability was speculated by antivirus firms to be helping the virus spread more widely online.",
+    "ground_truth_chunk": 3712
+  },
+  {
+    "question": "According to antivirus firm Sophos, what percentage of email on the internet was infected with the Zafi virus?",
+    "answer": "According to Sophos, one in every 15 emails on the internet was infected with the Zafi virus.",
+    "ground_truth_chunk": 3712
+  },
+  {
+    "question": "Who was Jef Raskin and what was his key contribution to the Apple Macintosh?",
+    "answer": "Jef Raskin was one of the first employees at Apple and the head of the team behind the first Macintosh computer. He made many of the design decisions that made the Mac distinctive, including leading the team that decided to use a graphical interface and mouse that let people navigate by pointing and clicking. The 1984 release of the Mac reflected his belief that good design should make computers easy to use.",
+    "ground_truth_chunk": 8963
+  },
+  {
+    "question": "What technology does the anti-tremor mouse adaptor use to help people with hand tremors?",
+    "answer": "The anti-tremor mouse adaptor uses similar steady-cam technology to that found in camcorders to filter out shaking hand movements, making it easier for people with hand tremors to control a computer mouse.",
+    "ground_truth_chunk": 7901
+  },
+  {
+    "question": "Approximately how many Britons have some sort of hand tremor condition?",
+    "answer": "About three million Britons have some sort of hand tremor condition, according to the UK National Tremor Foundation.",
+    "ground_truth_chunk": 7901
+  },
+  {
+    "question": "How many people took part in the US brain-computer interface study, and what did they successfully do?",
+    "answer": "Four people — two of them partly paralysed wheelchair users — successfully moved a computer cursor while wearing a cap fitted with 64 electrodes. The New York team reported their findings in the Proceedings of the National Academy of Sciences.",
+    "ground_truth_chunk": 4398
+  },
+  {
+    "question": "What did the Usher lead the Billboard Award nominations for, and where were the awards to be held?",
+    "answer": "R&B singer Usher led the race for the Billboard awards with nominations in 9 categories, including best male. The awards were to be held on 8 December at the MGM Grand in Las Vegas. Alicia Keys had 8 nominations, and Stevie Wonder was set to receive Billboard's Century Award, the magazine's highest honour for creative achievement.",
+    "ground_truth_chunk": 12323
+  },
+  {
+    "question": "What was Merle Kilgore's cause of death and what major country hit was he known for co-writing?",
+    "answer": "Merle Kilgore died of congestive heart failure aged 59. He was the co-writer of the country hit 'Ring of Fire', which he wrote with June Carter Cash — the future wife of Johnny Cash, who went on to score his most popular hit with the track.",
+    "ground_truth_chunk": 11947
+  },
+  {
+    "question": "What happened with the Bill Cosby allegations investigated by authorities in Philadelphia?",
+    "answer": "US authorities in Philadelphia decided not to charge comedian Bill Cosby, saying they found insufficient evidence to support the woman's allegations regarding an alleged incident in January 2004. The woman had reported the allegations to Canadian authorities the previous month. Cosby's lawyer said he was pleased with the decision and looked forward to moving on with his life.",
+    "ground_truth_chunk": 12851
+  },
+  {
+    "question": "How did EMI explain its profit warning and what happened to its share price?",
+    "answer": "EMI said its music sales for the year to March would fall 10% from the previous year, with profits set to be 20% lower than analysts had expected. It blamed poor sales since Christmas and delays to new album releases by Coldplay and Gorillaz. By 1000 GMT on Monday, EMI shares were down more than 13% to 179 pence.",
+    "ground_truth_chunk": 13638
+  },
+  {
+    "question": "How many job cuts did SBC Communications announce following its takeover of AT&T, and how were the cuts distributed?",
+    "answer": "SBC Communications expected to cut around 13,000 jobs. Of those, 10,000 positions would go due to network efficiencies, another 1,300 from its sales department, 1,000 from business operations, and 700 across legal, advertising, and public relations. SBC employed 162,000 people while AT&T employed 47,000.",
+    "ground_truth_chunk": 13683
+  },
+  {
+    "question": "What caused British Airways' drop in profits in the quarter to December, and how did results compare to market expectations?",
+    "answer": "British Airways blamed high fuel prices for a 26% drop in profits. The airline made a pre-tax profit of £75m compared with £102m a year earlier. However, BA's profits were still better than the market expectation of £50m. CEO Rod Eddington said fuel costs rose by £110m or 38% during that third quarter.",
+    "ground_truth_chunk": 10309
+  },
+  {
+    "question": "What was Rinus Michels's greatest achievement as a coach of the Dutch national team?",
+    "answer": "Rinus Michels guided the Dutch national team to the 1988 European Championship title with a 2-0 win over the Soviet Union in the final. He had also led the Netherlands at the 1974 World Cup, when they reached the final but lost 2-1 to Germany.",
+    "ground_truth_chunk": 1770
+  },
+  {
+    "question": "What clubs did Rinus Michels coach, and what did he win with Ajax?",
+    "answer": "Rinus Michels played for Ajax and coached the side to four national titles between 1965 and 1971, and a European Cup in 1971. He was referred to in the Netherlands as 'the General' and was credited with developing the concept of total football.",
+    "ground_truth_chunk": 1770
+  },
+  {
+    "question": "What made Michelle Collins' doping ban historically significant?",
+    "answer": "Michelle Collins was the first athlete to be suspended without a positive drugs test or an admission of drugs use. She received an eight-year ban for doping offences from the North American Court of Arbitration for Sport (CAS), based on her connection to the federal inquiry into the BALCO doping scandal.",
+    "ground_truth_chunk": 9807
+  },
+  {
+    "question": "What title had Michelle Collins previously held before receiving her doping ban?",
+    "answer": "Michelle Collins was America's former world indoor 200m champion.",
+    "ground_truth_chunk": 9807
+  },
+  {
+    "question": "What deal did Mitsubishi Motors sign with Peugeot, and why was it significant for Mitsubishi?",
+    "answer": "Mitsubishi Motors struck a deal to supply French car maker Peugeot with 30,000 sports utility vehicles (SUVs). The two firms signed a memorandum of understanding and expected to seal a final agreement by spring 2005. The SUVs would be built in Japan using Peugeot's diesel engines and sold mainly in the European market. The deal was a badly needed boost for loss-making Mitsubishi after several profit warnings and poor sales.",
+    "ground_truth_chunk": 10190
+  },
+  {
+    "question": "By how much was the UK adult minimum wage increased, and who benefits from the change?",
+    "answer": "The adult minimum wage was raised to £5.05 per hour from its previous level of £4.85. Adults must be paid at least £5.05 an hour, while 18-to-21-year-olds would be paid £4.25. The change was to take effect in October, benefiting more than 1.5 million people, and came on the recommendation of the Low Pay Commission.",
+    "ground_truth_chunk": 5453
+  },
+  {
+    "question": "According to the FAO report on agricultural commodity markets, how many people in the developing world rely on farming?",
+    "answer": "According to the FAO report, 2.5 billion people in the developing world rely on farming, and trade barriers and subsidies that severely distort the market put these people's food security at risk. The most endangered are those in the least-developed countries.",
+    "ground_truth_chunk": 13042
+  },
+  {
+    "question": "What result did England achieve at the Dubai Sevens tournament and who scored their tries in the final?",
+    "answer": "England beat Fiji 45-20 in a dramatic final in Dubai to win the first IRB Sevens event of the season. Their scorers in the final were Pat Sanderson, Kai Horstman, Mathew Tait, and Rob Thirlby. England had beaten Australia and South Africa to reach the final.",
+    "ground_truth_chunk": 473
+  },
+  {
+    "question": "What was the outcome for Scotland and Ireland at the Dubai Sevens tournament?",
+    "answer": "Scotland were beaten 14-12 by Samoa in the Plate semi-final, and Ireland lost to Tunisia in the Shield final.",
+    "ground_truth_chunk": 473
+  },
+  {
+    "question": "Who won the women's event at the Reebok Cardiff Cross Challenge and by how much?",
+    "answer": "European cross-country champion Hayley Yelling completed a hat-trick of wins in the Reebok Cardiff Cross Challenge in Bute Park on Sunday. The part-time maths teacher beat Irish international Jolene Byrne by 10 metres in the six-kilometre race.",
+    "ground_truth_chunk": 639
+  },
+  {
+    "question": "What accusation did a customer lawsuit make against Apple in relation to iTunes and the iPod?",
+    "answer": "The lawsuit accused Apple of having unlawfully bundled, tied, and/or leveraged its monopoly in the market for the sale of legal online digital music recordings to thwart competition in the separate market for portable hard-drive digital music players, and vice versa. The plaintiff, Mr Slattery, called himself an iTunes customer who was also forced to purchase an Apple iPod if he wanted to take his music with him.",
+    "ground_truth_chunk": 3263
+  },
+  {
+    "question": "How did General Motors extricate itself from the obligation to potentially buy Fiat outright?",
+    "answer": "General Motors paid Fiat 1.55 billion euros (£1.07bn / $2bn) to get out of a deal which could have forced it to buy the Italian carmaker. Fiat had sold GM a stake in 2000 as part of a partnership agreement, but Fiat's heavy losses convinced GM — whose own European operations were in the red — to back away. The payoff allowed the two firms to unwind joint ventures, though Fiat would keep supplying diesel engines.",
+    "ground_truth_chunk": 10175
+  },
+  {
+    "question": "What was the X Factor's ratings performance against the BBC in the week before its final?",
+    "answer": "Last Saturday's X Factor show was beaten in the ratings by the BBC's Strictly Come Dancing. Despite this, ITV recommissioned the show for a second series, with judges Simon Cowell, Louis Walsh, and Sharon Osbourne in discussions to sign up again.",
+    "ground_truth_chunk": 6559
+  },
+  {
+    "question": "What was Britney Spears seeking through her lawsuit against insurance companies?",
+    "answer": "Britney Spears was suing eight insurance companies that refused to reimburse her for cancelling her 2004 Onyx Hotel world tour. She had cancelled the tour after suffering a knee injury during a video shoot, and was seeking to be reimbursed for the tour's $9.8m (£5.2m) costs in a claim filed at New York State Supreme Court. Seven London-based companies and one Paris firm were given up to 90 days to respond.",
+    "ground_truth_chunk": 6678
+  },
+  {
+    "question": "What was Godzilla receiving at his Hollywood Walk of Fame ceremony and what was the occasion?",
+    "answer": "Movie monster Godzilla received a star on Hollywood's Walk of Fame — the 2,271st star on Hollywood Boulevard — honouring both his 50th birthday and the launch of his 28th film. An actor dressed as the creature breathed smoke over photographers during the ceremony.",
+    "ground_truth_chunk": 6800
+  },
+  {
+    "question": "How much did the four Beatles suits from the Please Please Me album cover sell for at auction?",
+    "answer": "The four suits worn by the Beatles on their Please Please Me album cover sold for $106,000 at a US auction at Bonhams and Butterfields.",
+    "ground_truth_chunk": 12847
+  },
+  {
+    "question": "What happened to Elvis Presley's early recordings at the Bonhams and Butterfields auction?",
+    "answer": "Some of Elvis Presley's earliest recordings — including takes of 'All Shook Up' — failed to sell. A private collection of six tape recordings of Presley, valued at between $10,000 and $15,000, did not meet its reserve price. However, a signed Presley photograph did manage to fetch $2,600.",
+    "ground_truth_chunk": 12847
+  },
+  {
+    "question": "What film will Casino Royale be in the James Bond franchise, and who was announced to direct it?",
+    "answer": "Casino Royale was announced as the 21st James Bond film to hit the big screen, with GoldenEye director Martin Campbell behind the camera. Casino Royale is Ian Fleming's first James Bond book. Pierce Brosnan had led the past four Bond films but producers had let him go after offering him the chance to continue.",
+    "ground_truth_chunk": 6753
+  },
+  {
+    "question": "What did Sun Microsystems' Sun Grid pay-as-you-go computing service cost users?",
+    "answer": "Sun Grid cost users $1 (50p) for an hour's worth of processing and storage power on systems maintained by Sun. The service was designed for customers requiring huge computing power, allowing them to rent it by the hour rather than invest in their own hardware.",
+    "ground_truth_chunk": 2400
+  },
+  {
+    "question": "What statistic did a Microsoft Word document security survey by Workshare reveal about sensitive information?",
+    "answer": "A survey by document security firm Workshare revealed that up to 90% of all business documents contained sensitive information that most firms would not want exposed. Making matters worse, 72% of the companies questioned had no idea that confidential information was leaking.",
+    "ground_truth_chunk": 8956
+  },
+  {
+    "question": "What was Nigeria's cocoa production target and how was it going to be funded?",
+    "answer": "Nigeria aimed to triple cocoa production from an expected 180,000 tonnes in the current year to 600,000 tonnes by 2008 under an ambitious development programme. The government planned to pump 8 billion naira (£33m) into subsidies for farming chemicals and seedlings. Nigeria was at the time the world's fourth-largest cocoa producer.",
+    "ground_truth_chunk": 13377
+  },
+  {
+    "question": "What was Michael Howard's reason for backing Labour's controversial ID cards plan?",
+    "answer": "Michael Howard decided to support the ID cards plan because the police said the cards would help fight terror, crime, and illegal immigration. He denied his shadow cabinet was split over the decision and said his front bench had reached a collective view after a good discussion, though he admitted it was not an easy issue.",
+    "ground_truth_chunk": 7253
+  },
+  {
+    "question": "What position did the Lib Dems take on the ID cards bill?",
+    "answer": "The Lib Dems pledged to oppose the ID cards bill when it was debated the following Monday, in contrast to the Conservatives who decided to back the controversial Labour plans.",
+    "ground_truth_chunk": 7253
+  },
+  {
+    "question": "What was Lord Scarman best known for in terms of his judicial work?",
+    "answer": "Lord Scarman was best known for conducting the inquiry into the 1981 Brixton riots. He also enjoyed a celebrated judicial career, serving as Law Commission chairman in its first seven years. He additionally chaired the 1969 tribunal set up to investigate civil disturbances in Northern Ireland.",
+    "ground_truth_chunk": 7643
+  },
+  {
+    "question": "What did the Electoral Commission say could help reduce errors and fraud in voter registration?",
+    "answer": "The Electoral Commission said enabling people to register individually — rather than one person per household applying for voting forms for all other occupants — could cut some errors, such as pets and children being mistakenly registered to vote, and could also help combat fraud. Voters needed to register by 10 March if the next poll was on 5 May as expected.",
+    "ground_truth_chunk": 5216
+  },
+  {
+    "question": "What did Charles Kennedy pledge in the Liberal Democrats' manifesto aimed at women voters?",
+    "answer": "Charles Kennedy pledged a maternity income guarantee and a pension system based on years of residence rather than national insurance payments. He also thought women would back plans to end university tuition fees and for free long-term care for the elderly.",
+    "ground_truth_chunk": 5249
+  },
+  {
+    "question": "What were the two US airlines that reported disappointing quarterly results due to high fuel costs?",
+    "answer": "American Airlines' parent AMR and Southwest Airlines both blamed record fuel prices for disappointing results. AMR reported a fourth-quarter 2004 loss of $388m against a $119m loss a year earlier. Southwest Airlines saw its fourth-quarter profits fall 18% to $56m against $68m a year earlier.",
+    "ground_truth_chunk": 10290
+  },
+  {
+    "question": "What was Charles Kennedy's prediction about voter turnout in the upcoming general election?",
+    "answer": "Charles Kennedy predicted that voters' pent-up passion could confound predictions of a low turnout. He said concerns over Iraq and other international and domestic issues would express themselves during the campaign. Ex-Foreign Secretary Robin Cook also said people were not apathetic but were fed up of 'pager politics' and not being heard.",
+    "ground_truth_chunk": 951
+  },
+  {
+    "question": "What did Police Federation chair Jan Berry say about community support officers being given powers to detain suspects?",
+    "answer": "Jan Berry strongly opposed giving Community Support Officers (CSOs) the power to detain suspects for up to 30 minutes. The Police Federation said CSOs do not have the experience, training, and safety equipment to deal with potentially confrontational situations. The powers had been piloted in six areas before being extended to all police forces in England and Wales.",
+    "ground_truth_chunk": 6229
+  },
+  {
+    "question": "What were the key provisions of Gordon Brown's budget ahead of the election?",
+    "answer": "Gordon Brown was expected to stress continued economic stability with low unemployment and interest rates, freeze petrol duty, and raise the stamp duty threshold from £60,000. The Conservatives and Lib Dems insisted voters would face higher taxes and more means-testing under Labour. The budget was likely to be the last before the general election.",
+    "ground_truth_chunk": 5784
+  },
+  {
+    "question": "When did Gordon Brown announce he would deliver his budget to the House of Commons?",
+    "answer": "The Treasury announced that Chancellor Gordon Brown would deliver his budget on 16 March, at about 1230 GMT on that Wednesday, just after Prime Minister's Question Time. The Tories said it was likely the budget would contain measures to attract votes, with the election expected on 5 May.",
+    "ground_truth_chunk": 7650
+  },
+  {
+    "question": "What penalty was Honda paying General Motors for pulling out of its agreement to buy Fiat, according to the article about Alfa Romeo engines?",
+    "answer": "According to the article about Alfa Romeo and GM engines, GM had to pay Fiat a large sum — described as paying 'former' — when it pulled out of its agreement to buy Fiat. The article references this payment in the context of announcing that Fiat planned to close its Fiat Powertrain plant at Arese near Milan and source six-cylinder engines from General Motors in Australia instead.",
+    "ground_truth_chunk": 11070
+  },
+  {
+    "question": "What is the Alfa Romeo engine sourcing change announced by Italian unions?",
+    "answer": "Italian unions said Fiat planned to stop making six-cylinder petrol engines for its sporty Alfa Romeo subsidiary. Fiat was set to close the Fiat Powertrain plant at Arese near Milan and instead source six-cylinder engines from General Motors, which would be made by GM in Australia. Fiat had yet to officially comment on the matter.",
+    "ground_truth_chunk": 11070
+  },
+  {
+    "question": "What did Archbishop Desmond Tutu call for following the news that all four British detainees at Guantanamo Bay would be freed?",
+    "answer": "Archbishop Desmond Tutu called for the release of all remaining inmates at Guantanamo Bay and terror suspects detained without trial in the UK. He said detentions without trial were unacceptable and distressing. At the time, twelve foreign nationals were being held indefinitely without trial in the UK under anti-terror laws.",
+    "ground_truth_chunk": 1598
+  },
+  {
+    "question": "What legal ruling did the Law Lords make regarding the UK government's treatment of Roma travellers at Prague airport?",
+    "answer": "The Law Lords ruled that the government's immigration rules racially discriminated against Roma gypsies seeking entry into the UK. A Home Office move to cut asylum claims by stopping people — mostly Roma — from boarding flights from the Czech capital Prague was found to be discriminatory. Civil rights group Liberty said the ruling exposed racism at the heart of the government's asylum policy.",
+    "ground_truth_chunk": 5849
+  },
+  {
+    "question": "What was the George Michael documentary about, and where was it to be screened?",
+    "answer": "A documentary called 'A Different Story' was to screen in the Panorama section of the Berlin Film Festival, which ran from 10 February onwards. It featured singer George Michael talking about both his career and his personal life, from his days in Wham through to more recent events. Michael was set to attend the festival on 12 February to introduce the screening.",
+    "ground_truth_chunk": 12799
+  },
+  {
+    "question": "What happened at the Chris Rock Oscar hosting announcement regarding language?",
+    "answer": "Comedian Chris Rock, announced as host for the Academy Awards on 27 February, said he would steer clear of bad language. The live ceremony was to be broadcast with a transmission delay on US network ABC to ensure swear words could be removed. Rock — renowned for heavy use of expletives in his stand-up routine — said during a CBS interview that he had been on TV before and been funny without cursing.",
+    "ground_truth_chunk": 6992
+  },
+  {
+    "question": "What plans did Yeahronimo Media Ventures announce after buying the Commodore brand?",
+    "answer": "New owner Yeahronimo Media Ventures did not rule out the possibility of a new breed of Commodore computers. It also planned to develop a worldwide entertainment concept with the brand, though specific details were not yet known. The company was a US-based digital music distributor that bought the once-famous Commodore computer brand.",
+    "ground_truth_chunk": 4677
+  },
+  {
+    "question": "What did Jennifer Lopez say when she cancelled her appearance at the UK charity premiere of 'Shall We Dance'?",
+    "answer": "Lopez said she very much wanted to be in London but was not well and was unable to travel on the advice of her doctors. She cancelled all European promotion of both the film and her new album. Her co-star Richard Gere attended the event, which was held in aid of the tsunami appeal.",
+    "ground_truth_chunk": 12070
+  },
+  {
+    "question": "What was Dick Clark's connection to New Year's Eve on US television?",
+    "answer": "Dick Clark had hosted American Bandstand from 1956 and had led the New Year's Eve festivities in New York's Times Square on the ABC network for 32 years. After suffering a mild stroke, he said he was hopeful of recovering in time to continue leading the New Year festivities.",
+    "ground_truth_chunk": 6643
+  },
+  {
+    "question": "How much did Jimi Hendrix's 1968 Fender Stratocaster sell for at auction in London?",
+    "answer": "The 1968 Fender Stratocaster belonging to Jimi Hendrix sold for £100,000 at an auction in London. It was one of a number of guitars included in a sale dedicated to the rock legend, described as the biggest collection of Hendrix memorabilia to go under the hammer.",
+    "ground_truth_chunk": 11927
+  },
+  {
+    "question": "What was BMW's year-on-year sales growth in Asia, and which model saw the most dramatic increase?",
+    "answer": "BMW sold nearly 48,000 cars in Asia last year, up 30% on 2003. BMW-brand sales rose 27% to 46,000, while sales of Mini models rose 72% to 2,000. There was also a significant increase in sales of Rolls-Royces — BMW sold more than 60 of the iconic models compared with just ten the previous year.",
+    "ground_truth_chunk": 10144
+  },
+  {
+    "question": "What is Rank Group's current business portfolio, as described in the article about the company?",
+    "answer": "Formed in the 1930s as a leading UK film producer and cinema owner, Rank has since diversified into a range of leisure activities mainly in the UK, including hotels, roadside service areas, and holiday centres. It now owns 32 Grosvenor casinos, the Mecca Bingo chain, and more than 120 Hard Rock Cafes in 38 countries.",
+    "ground_truth_chunk": 10755
+  },
+  {
+    "question": "What action did REM take after their Glasgow SECC concert was cancelled due to illness?",
+    "answer": "REM announced plans to perform for 25,000 Scottish fans in a rescheduled gig. The band would play in what was dubbed 'Europe's biggest tent' on Glasgow Green on Tuesday 21 June. Bassist Mike Mills had contracted flu, forcing the cancellation of the original February concert at the SECC. Fans who bought tickets for the original show could attend the rescheduled concert.",
+    "ground_truth_chunk": 12194
+  },
+  {
+    "question": "What penalty did the stalemate in pension strike talks concern, and how many workers could be affected?",
+    "answer": "Talks between five public sector unions and Deputy Prime Minister John Prescott ended without agreement after 90 minutes. The unions wanted the government to withdraw regulations due to be introduced within weeks that would raise the pension age for council workers from 60 to 65. Up to 1.5 million workers could take part in strikes earmarked for 23 March.",
+    "ground_truth_chunk": 5345
+  },
+  {
+    "question": "What is the Patricia Hewitt's position on extending paid maternity leave, as described in the article?",
+    "answer": "Trade and Industry Secretary Patricia Hewitt said plans to extend paid maternity leave beyond six months should be prominent in Labour's election manifesto. She said the cost of the proposals was being evaluated but it was an increasingly high priority and a shared goal across government. At the time, mothers could take up to six months paid leave and six additional months unpaid.",
+    "ground_truth_chunk": 7231
+  },
+  {
+    "question": "According to Nokia research, how many people in the UK, Germany, US, and South Korea only use a mobile phone for all calls?",
+    "answer": "According to the Nokia study, more than 35 million people across the UK, Germany, US, and South Korea now only use a mobile for all their calls. The research showed people kept fixed-line phones mainly because call charges were lower, but the majority of those questioned said the future was definitely mobile.",
+    "ground_truth_chunk": 4460
+  }
+]
