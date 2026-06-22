@@ -13,7 +13,7 @@ texts = [
 print("Chunks:", len(texts))
 
 model = SentenceTransformer(
-    "sentence-transformers/all-MiniLM-L6-v2"
+    "sentence-transformers/all-mpnet-base-v2"
 )
 
 embeddings = model.encode(

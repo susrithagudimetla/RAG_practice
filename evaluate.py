@@ -3,6 +3,7 @@ import math
 import numpy as np
 import faiss
 from sentence_transformers import SentenceTransformer
+from sklearn.feature_extraction.text import TfidfVectorizer
 
 # ======================================
 # LOAD DATA
@@ -11,15 +12,14 @@ from sentence_transformers import SentenceTransformer
 with open("bbc_chunks.json", "r", encoding="utf-8") as f:
     chunks = json.load(f)
 
-with open("qa_dataset.json", "r", encoding="utf-8") as f:
+with open("qa_dataset_clean.json", "r", encoding="utf-8") as f:
     qa_pairs = json.load(f)
 
 index = faiss.read_index("bbc_faiss.index")
 
-# IMPORTANT:
-# Use the same embedding model used to create bbc_embeddings.npy
+
 model = SentenceTransformer(
-    "sentence-transformers/all-MiniLM-L6-v2"
+    "sentence-transformers/all-mpnet-base-v2"
 )
 
 # ======================================
@@ -39,11 +39,21 @@ for row_idx, chunk in enumerate(chunks):
     row_to_chunkid[row_idx] = unique_id
     chunkid_to_row[unique_id] = row_idx
 
+chunk_texts = [chunk["chunk_text"] for chunk in chunks]
+
+vectorizer = TfidfVectorizer(
+    ngram_range=(1, 2),
+    stop_words="english",
+    max_features=50000
+)
+
+tfidf_matrix = vectorizer.fit_transform(chunk_texts)
+
 # ======================================
 # RETRIEVAL
 # ======================================
 
-def retrieve(question, top_k=10):
+def semantic_retrieve(question, top_k=20):
 
     q_emb = model.encode(
         [question],
@@ -58,9 +68,70 @@ def retrieve(question, top_k=10):
     )
 
     return [
-        row_to_chunkid[i]
-        for i in indices[0]
+        (row_to_chunkid[i], float(scores[0][j]))
+        for j, i in enumerate(indices[0])
     ]
+
+
+def lexical_retrieve(question, top_k=20):
+
+    q_tfidf = vectorizer.transform([question])
+    lex_scores = (tfidf_matrix @ q_tfidf.T).toarray().ravel()
+    top_indices = np.argsort(-lex_scores)[:top_k]
+
+    return [
+        (row_to_chunkid[i], float(lex_scores[i]))
+        for i in top_indices
+        if lex_scores[i] > 0
+    ]
+
+
+def retrieve(
+    question,
+    top_k=5,
+    alpha=0.5,
+    sem_k=20,
+    lex_k=20
+):
+
+    sem_results = semantic_retrieve(question, top_k=sem_k)
+    lex_results = lexical_retrieve(question, top_k=lex_k)
+
+    candidate_scores = {}
+
+    for uid, score in sem_results:
+        candidate_scores.setdefault(uid, {})["sem"] = score
+
+    for uid, score in lex_results:
+        candidate_scores.setdefault(uid, {})["lex"] = score
+
+    max_sem = max(
+        (scores.get("sem", 0) for scores in candidate_scores.values()),
+        default=0
+    )
+    max_lex = max(
+        (scores.get("lex", 0) for scores in candidate_scores.values()),
+        default=0
+    )
+
+    hybrid_ranking = []
+
+    for uid, scores in candidate_scores.items():
+        sem_norm = scores.get("sem", 0) / max_sem if max_sem > 0 else 0
+        lex_norm = scores.get("lex", 0) / max_lex if max_lex > 0 else 0
+        combined_score = alpha * sem_norm + (1 - alpha) * lex_norm
+        hybrid_ranking.append((uid, combined_score))
+
+    hybrid_ranking.sort(
+        key=lambda item: item[1],
+        reverse=True
+    )
+
+    return [
+        uid
+        for uid, _ in hybrid_ranking[:top_k]
+    ]
+
 # ======================================
 # METRICS
 # ======================================
@@ -173,7 +244,7 @@ for sample in qa_pairs:
 
     retrieved = retrieve(
         question,
-        top_k=10
+        top_k=5
     )
 
     recall_scores.append(
