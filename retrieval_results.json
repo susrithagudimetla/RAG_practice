@@ -1,988 +1,1202 @@
 [
   {
-    "question": "Which club sacked Adrian Mutu after he failed a drugs test?",
+    "question": "Why did Chelsea sack Adrian Mutu?",
     "ground_truth": "0_0",
     "retrieved_chunks": [
       "0_0",
-      "0_5",
-      "1598_0",
-      "652_1",
-      "1598_1",
-      "652_0",
-      "0_6",
-      "0_1",
       "0_4",
-      "0_3"
+      "1598_0",
+      "1598_2",
+      "1598_3"
     ],
     "hit": true
   },
   {
-    "question": "What suspension could Adrian Mutu face after failing a drugs test?",
+    "question": "What did Mutu test positive for?",
     "ground_truth": "0_0",
     "retrieved_chunks": [
       "0_0",
-      "1598_0",
       "0_5",
-      "0_6",
       "652_1",
-      "1567_2",
-      "76_0",
-      "0_3",
-      "1598_1",
-      "1430_1"
+      "663_4",
+      "0_4"
     ],
     "hit": true
   },
   {
-    "question": "What policy toward drugs did Chelsea say it had?",
+    "question": "What drug policy does Chelsea say it has?",
     "ground_truth": "0_1",
     "retrieved_chunks": [
+      "0_0",
       "0_1",
-      "0_5",
-      "94_2",
-      "2371_1",
+      "1908_0",
+      "0_2",
+      "1875_0"
+    ],
+    "hit": true
+  },
+  {
+    "question": "How many goals did Mutu score in his first five games?",
+    "ground_truth": "0_1",
+    "retrieved_chunks": [
+      "0_0",
+      "41_2",
+      "139_5",
+      "652_0",
+      "12_5"
+    ],
+    "hit": false
+  },
+  {
+    "question": "What ban does FIFA's disciplinary code say should follow a first doping offence?",
+    "ground_truth": "0_2",
+    "retrieved_chunks": [
       "0_3",
       "0_2",
-      "1430_2",
-      "1430_1",
-      "2386_1",
-      "0_4"
+      "1567_0",
+      "1499_0",
+      "1525_2"
     ],
     "hit": true
   },
   {
-    "question": "According to FIFA, who should handle Adrian Mutu's failed drugs test?",
-    "ground_truth": "0_3",
+    "question": "Which athlete produced another world pole vault record at the Birmingham meet?",
+    "ground_truth": "1_0",
     "retrieved_chunks": [
-      "0_0",
-      "0_5",
-      "0_3",
-      "1598_0",
-      "652_1",
-      "0_6",
-      "0_1",
-      "1598_1",
-      "652_0",
-      "0_2"
-    ],
-    "hit": true
-  },
-  {
-    "question": "Which expert backed Chelsea's decision to sack Adrian Mutu?",
-    "ground_truth": "0_4",
-    "retrieved_chunks": [
-      "0_0",
-      "0_5",
-      "0_4",
-      "1598_1",
-      "1598_0",
-      "652_0",
-      "0_1",
-      "1598_2",
-      "1598_3",
-      "197_5"
-    ],
-    "hit": true
-  },
-  {
-    "question": "What did Michelle Verroken say Chelsea's decision boosted?",
-    "ground_truth": "0_5",
-    "retrieved_chunks": [
-      "0_4",
-      "0_5",
-      "197_5",
-      "197_7",
-      "94_2",
-      "643_1",
-      "68_4",
-      "126_3",
-      "1171_4",
-      "1004_3"
-    ],
-    "hit": true
-  },
-  {
-    "question": "What kind of substance did Mutu later suggest he had taken?",
-    "ground_truth": "0_6",
-    "retrieved_chunks": [
-      "0_5",
-      "0_0",
-      "652_0",
-      "1598_0",
-      "1598_1",
-      "652_1",
-      "0_1",
-      "230_3",
-      "0_6",
-      "0_4"
-    ],
-    "hit": true
-  },
-  {
-    "question": "Which athlete set another world pole vault record in Birmingham?",
-    "ground_truth": "7_7",
-    "retrieved_chunks": [
-      "187_0",
-      "85_6",
-      "1_0",
-      "1538_1",
-      "1512_3",
-      "112_1",
+      "1538_0",
       "1589_3",
-      "109_4",
-      "369_8",
-      "109_1"
-    ],
-    "hit": false
-  },
-  {
-    "question": "By how much was Isinbayeva said to extend the indoor record at a time?",
-    "ground_truth": "7_8",
-    "retrieved_chunks": [
       "1_0",
-      "112_1",
-      "1_1",
-      "187_0",
-      "2188_3",
-      "1320_5",
-      "502_5",
-      "112_0",
-      "2103_3",
-      "2016_3"
+      "369_8",
+      "85_6"
     ],
-    "hit": false
+    "hit": true
   },
   {
-    "question": "Which runner finished second behind Kelly Holmes?",
-    "ground_truth": "7_9",
+    "question": "Who looked good and was very positive at the athletics meet?",
+    "ground_truth": "1_1",
     "retrieved_chunks": [
       "1_2",
-      "177_0",
-      "1589_0",
-      "84_1",
-      "145_0",
+      "85_5",
       "1_1",
-      "1576_0",
-      "388_0",
-      "1607_8",
-      "628_0"
+      "1_5",
+      "657_2"
     ],
-    "hit": false
+    "hit": true
   },
   {
-    "question": "Which event was Jason Gardener trying to win in Madrid?",
-    "ground_truth": "7_10",
+    "question": "Who finished second in the women's national 400m race?",
+    "ground_truth": "1_5",
     "retrieved_chunks": [
-      "1_3",
-      "1512_0",
-      "85_0",
-      "1589_2",
-      "1584_3",
-      "109_0",
-      "1561_1",
-      "171_3",
-      "664_1",
-      "85_1"
+      "1465_3",
+      "1554_1",
+      "1589_6",
+      "930_6",
+      "177_2"
     ],
     "hit": false
   },
   {
-    "question": "Why was Mark Lewis-Francis unable to compete in the final?",
-    "ground_truth": "7_11",
+    "question": "Why was Mark Lewis-Francis disqualified?",
+    "ground_truth": "1_4",
     "retrieved_chunks": [
       "1_4",
-      "103_2",
-      "196_3",
-      "81_7",
-      "22_3",
-      "79_8",
-      "1561_1",
-      "79_7",
-      "85_4",
-      "81_8"
+      "22_2",
+      "1589_2",
+      "1589_1",
+      "353_3"
     ],
-    "hit": false
+    "hit": true
   },
   {
-    "question": "Which French sprinter was mentioned as a benchmark for the Europeans?",
-    "ground_truth": "7_12",
+    "question": "Which Kenyan was well beaten by Markos Geneti?",
+    "ground_truth": "1_8",
     "retrieved_chunks": [
-      "1587_2",
-      "109_1",
-      "1587_0",
-      "38_0",
-      "1465_1",
-      "1583_1",
-      "75_0",
-      "86_2",
-      "369_4",
-      "1_5"
-    ],
-    "hit": false
-  },
-  {
-    "question": "Which athlete won the women's national 60m race in a new personal best?",
-    "ground_truth": "7_13",
-    "retrieved_chunks": [
-      "109_2",
-      "85_4",
-      "1589_5",
-      "1445_1",
-      "1_6",
-      "1589_4",
-      "1589_10",
-      "1_5",
-      "1607_2",
-      "1589_9"
-    ],
-    "hit": false
-  },
-  {
-    "question": "Which Canadian runner set a fast early pace but could not maintain it?",
-    "ground_truth": "7_14",
-    "retrieved_chunks": [
-      "1465_1",
-      "109_1",
-      "1465_0",
-      "1_7",
-      "187_1",
-      "85_4",
-      "1583_1",
-      "85_3",
-      "84_1",
-      "384_0"
-    ],
-    "hit": false
-  },
-  {
-    "question": "Which athlete was beaten by Markos Geneti?",
-    "ground_truth": "7_15",
-    "retrieved_chunks": [
-      "77_2",
-      "187_1",
-      "181_7",
-      "77_3",
-      "1_8",
-      "629_2",
-      "93_4",
       "1465_2",
-      "58_1",
-      "157_1"
-    ],
-    "hit": false
-  },
-  {
-    "question": "Which Arsenal player described the scenes after Manchester United beat Arsenal?",
-    "ground_truth": "16_16",
-    "retrieved_chunks": [
-      "155_1",
-      "155_0",
-      "1586_0",
-      "2_2",
-      "155_6",
-      "155_2",
-      "136_0",
-      "155_3",
-      "1604_2",
-      "155_5"
-    ],
-    "hit": false
-  },
-  {
-    "question": "What object was reportedly thrown at Sir Alex Ferguson after the match?",
-    "ground_truth": "16_17",
-    "retrieved_chunks": [
-      "1534_1",
-      "153_2",
-      "153_0",
-      "151_0",
-      "1596_2",
-      "2_2",
-      "1534_7",
-      "1534_6",
-      "122_1",
-      "1534_5"
-    ],
-    "hit": false
-  },
-  {
-    "question": "Which Arsenal player did Edu say was being kicked all over the park?",
-    "ground_truth": "16_18",
-    "retrieved_chunks": [
-      "2_0",
-      "153_2",
-      "155_1",
-      "2_2",
-      "155_2",
-      "155_6",
-      "1586_6",
-      "365_2",
-      "1534_9",
-      "155_0"
-    ],
-    "hit": false
-  },
-  {
-    "question": "Who hailed Ireland's victory over England as a special win?",
-    "ground_truth": "19_19",
-    "retrieved_chunks": [
-      "1569_0",
-      "196_6",
-      "3_0",
-      "1599_1",
-      "101_0",
-      "1599_0",
-      "1599_7",
-      "92_4",
-      "3_1",
-      "1516_0"
-    ],
-    "hit": false
-  },
-  {
-    "question": "How many points did Ronan O'Gara score against England?",
-    "ground_truth": "19_19",
-    "retrieved_chunks": [
-      "3_0",
-      "1569_6",
-      "1599_0",
-      "102_4",
-      "1569_3",
-      "1569_7",
-      "102_0",
-      "196_6",
-      "196_5",
-      "1569_5"
-    ],
-    "hit": false
-  },
-  {
-    "question": "Which Ireland hooker said the game was England's best outing in the Six Nations?",
-    "ground_truth": "19_20",
-    "retrieved_chunks": [
-      "3_1",
-      "92_4",
-      "152_4",
-      "196_6",
-      "1569_0",
-      "196_7",
-      "196_8",
-      "44_0",
-      "1515_2",
-      "1569_2"
-    ],
-    "hit": false
-  },
-  {
-    "question": "Who scored Ireland's only try against England?",
-    "ground_truth": "19_21",
-    "retrieved_chunks": [
-      "1569_0",
-      "196_6",
-      "1599_0",
-      "3_2",
-      "1569_4",
-      "1569_6",
-      "196_7",
-      "102_1",
-      "1569_3",
-      "167_1"
-    ],
-    "hit": false
-  },
-  {
-    "question": "Which player was discussed as possibly being offside for a disallowed try?",
-    "ground_truth": "19_22",
-    "retrieved_chunks": [
-      "37_2",
-      "37_1",
-      "3_3",
-      "13_4",
-      "92_1",
-      "196_3",
-      "152_1",
-      "194_2",
-      "153_1",
-      "49_2"
-    ],
-    "hit": false
-  },
-  {
-    "question": "How did O'Sullivan describe the try mentioned in the match?",
-    "ground_truth": "19_23",
-    "retrieved_chunks": [
-      "79_4",
-      "379_5",
-      "3_2",
-      "196_5",
-      "379_1",
-      "79_3",
-      "44_5",
-      "1553_6",
-      "3_3",
-      "1599_1"
-    ],
-    "hit": false
-  },
-  {
-    "question": "What tag did the speaker say Ireland had played with for the first time?",
-    "ground_truth": "19_24",
-    "retrieved_chunks": [
-      "1569_0",
-      "1569_2",
-      "1516_5",
-      "1599_0",
-      "1599_1",
-      "1599_7",
-      "379_0",
-      "1516_0",
-      "1515_0",
-      "140_3"
-    ],
-    "hit": false
-  },
-  {
-    "question": "Which Liverpool striker was uncertain about his future under Rafa Benitez?",
-    "ground_truth": "25_25",
-    "retrieved_chunks": [
-      "1573_2",
-      "4_0",
-      "1514_3",
-      "141_0",
-      "1498_1",
-      "195_0",
-      "662_0",
-      "146_2",
-      "1498_0",
-      "377_1"
-    ],
-    "hit": false
-  },
-  {
-    "question": "In which final was Milan Baros dropped by Liverpool?",
-    "ground_truth": "25_25",
-    "retrieved_chunks": [
-      "4_0",
-      "368_3",
-      "1498_0",
-      "4_1",
-      "195_2",
-      "154_2",
-      "1425_0",
-      "1491_0",
-      "377_1",
-      "358_1"
-    ],
-    "hit": false
-  },
-  {
-    "question": "After how many minutes did Baros come on as a substitute?",
-    "ground_truth": "25_26",
-    "retrieved_chunks": [
-      "4_1",
-      "368_3",
-      "4_2",
-      "4_0",
-      "358_6",
-      "96_3",
-      "154_2",
-      "1444_3",
-      "358_5",
+      "90_0",
+      "61_2",
+      "179_2",
       "1589_7"
     ],
     "hit": false
   },
   {
-    "question": "Which manager was linked to claims of a falling-out with Baros?",
-    "ground_truth": "25_27",
+    "question": "Which Arsenal player described the tunnel fracas after Manchester United's win?",
+    "ground_truth": "2_0",
     "retrieved_chunks": [
-      "4_2",
-      "4_0",
-      "4_1",
-      "116_5",
-      "1854_2",
-      "1920_2",
-      "1478_2",
-      "2379_2",
-      "154_2",
-      "1854_3"
+      "127_0",
+      "2_0",
+      "375_0",
+      "373_4",
+      "1462_3"
     ],
-    "hit": false
+    "hit": true
   },
   {
-    "question": "Which Manchester United winger said he was close to agreeing a new contract?",
-    "ground_truth": "28_28",
+    "question": "What did Edu say he did not see being thrown at anyone?",
+    "ground_truth": "2_0",
     "retrieved_chunks": [
-      "5_0",
-      "2353_1",
-      "1436_3",
-      "2348_3",
-      "1702_2",
-      "1466_5",
-      "1436_4",
-      "1462_3",
-      "1616_2",
-      "637_2"
+      "2_0",
+      "2_1",
+      "1452_0",
+      "1452_4",
+      "153_2"
     ],
-    "hit": false
+    "hit": true
   },
   {
-    "question": "Where did Ronaldo say a new contract agreement was close to being reached?",
-    "ground_truth": "28_28",
+    "question": "Which player was charged with serious foul play after the tunnel incident?",
+    "ground_truth": "2_2",
     "retrieved_chunks": [
-      "5_0",
-      "5_1",
-      "1565_3",
-      "1565_1",
-      "1582_3",
-      "1535_1",
-      "1462_3",
-      "1452_2",
-      "837_4",
-      "1432_0"
+      "127_0",
+      "30_1",
+      "30_2",
+      "2_0",
+      "2_2"
     ],
-    "hit": false
+    "hit": true
   },
   {
-    "question": "Which scrum-half was recalled to England's training squad ahead of the Six Nations?",
-    "ground_truth": "30_30",
+    "question": "Who said the victory over England was a special win?",
+    "ground_truth": "3_0",
     "retrieved_chunks": [
-      "140_0",
-      "1545_1",
-      "140_1",
-      "1553_10",
-      "1479_2",
-      "6_5",
-      "6_4",
-      "1571_5",
-      "1441_5",
-      "1553_9"
-    ],
-    "hit": false
-  },
-  {
-    "question": "Which young centre was also included in England's training squad?",
-    "ground_truth": "30_31",
-    "retrieved_chunks": [
-      "367_5",
-      "6_4",
-      "1545_0",
-      "363_3",
-      "6_5",
-      "6_1",
-      "6_2",
-      "367_4",
-      "6_3",
-      "186_1"
-    ],
-    "hit": false
-  },
-  {
-    "question": "In which city was England's three-day training session scheduled?",
-    "ground_truth": "30_32",
-    "retrieved_chunks": [
-      "394_0",
-      "6_1",
-      "906_0",
-      "906_2",
-      "994_0",
-      "956_0",
-      "956_2",
-      "311_3",
-      "85_3",
-      "6_2"
-    ],
-    "hit": false
-  },
-  {
-    "question": "Which England player was ruled out of the opening two matches?",
-    "ground_truth": "30_32",
-    "retrieved_chunks": [
-      "1569_5",
-      "196_7",
-      "59_1",
-      "198_1",
-      "7_3",
-      "198_2",
-      "1569_3",
-      "1569_4",
-      "81_2",
-      "198_8"
-    ],
-    "hit": false
-  },
-  {
-    "question": "Which recently switched player could be considered after moving from wing?",
-    "ground_truth": "30_33",
-    "retrieved_chunks": [
-      "6_3",
-      "6_4",
-      "149_3",
-      "364_2",
-      "336_3",
-      "154_3",
-      "1461_1",
-      "1545_1",
-      "1461_2",
-      "70_1"
-    ],
-    "hit": false
-  },
-  {
-    "question": "Which injured star was included despite being unavailable for the opening two matches?",
-    "ground_truth": "30_34",
-    "retrieved_chunks": [
-      "183_2",
-      "93_3",
-      "1618_2",
-      "385_0",
-      "154_1",
-      "342_3",
-      "81_7",
-      "349_1",
-      "154_0",
-      "79_7"
-    ],
-    "hit": false
-  },
-  {
-    "question": "How many tries had Varndell scored in three England appearances?",
-    "ground_truth": "30_35",
-    "retrieved_chunks": [
-      "1480_1",
-      "198_2",
+      "3_0",
       "198_8",
-      "36_4",
-      "1569_3",
-      "198_0",
-      "368_2",
-      "1559_7",
-      "1431_0",
-      "1569_5"
+      "196_2",
+      "59_2",
+      "650_6"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which Ireland captain scored his side's only try?",
+    "ground_truth": "3_2",
+    "retrieved_chunks": [
+      "44_0",
+      "379_0",
+      "1599_0",
+      "379_2",
+      "44_2"
     ],
     "hit": false
   },
   {
-    "question": "Which team did Manchester United face in their FA Cup third-round replay?",
-    "ground_truth": "38_38",
+    "question": "Which coach was surprised Andy Robinson was certain Mark Cueto was onside?",
+    "ground_truth": "3_3",
     "retrieved_chunks": [
-      "7_0",
-      "7_1",
-      "116_0",
-      "2_2",
-      "1596_3",
-      "192_5",
-      "638_1",
-      "1451_0",
-      "192_0",
-      "116_3"
+      "3_2",
+      "92_2",
+      "152_2",
+      "91_0",
+      "92_0"
     ],
     "hit": false
   },
   {
-    "question": "Who scored Manchester United's opening goal against Exeter City?",
-    "ground_truth": "38_38",
+    "question": "Who insisted Ireland were happy to handle the pressure of being favourites?",
+    "ground_truth": "3_4",
     "retrieved_chunks": [
-      "7_0",
-      "192_5",
-      "7_1",
-      "192_0",
-      "192_3",
-      "7_3",
-      "1596_0",
-      "194_1",
-      "1528_3",
-      "1528_2"
+      "27_3",
+      "1599_1",
+      "16_3",
+      "167_2",
+      "1602_4"
     ],
     "hit": false
   },
   {
-    "question": "Which Exeter player forced Tim Howard into a save?",
-    "ground_truth": "38_39",
+    "question": "Which Liverpool forward was uncertain if he remained part of Rafa Benitez's plans?",
+    "ground_truth": "4_0",
     "retrieved_chunks": [
-      "7_3",
-      "1220_0",
-      "7_0",
-      "1171_0",
-      "7_4",
-      "1604_3",
-      "155_6",
-      "194_3",
-      "1493_4",
+      "4_0",
+      "662_0",
+      "195_0",
+      "1573_2",
+      "392_4"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which cup final was Milan Baros dropped for?",
+    "ground_truth": "4_0",
+    "retrieved_chunks": [
+      "4_0",
+      "1540_0",
+      "154_1",
+      "139_5",
+      "12_5"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which Wasps scrumhalf was recalled to England's training squad?",
+    "ground_truth": "6_0",
+    "retrieved_chunks": [
+      "6_0",
+      "6_4",
+      "1446_2",
+      "6_5",
       "6_3"
     ],
-    "hit": false
+    "hit": true
   },
   {
-    "question": "Who provided the pass for Ronaldo's goal?",
-    "ground_truth": "38_40",
+    "question": "Which centre was also selected for England's training squad?",
+    "ground_truth": "6_1",
     "retrieved_chunks": [
-      "7_2",
-      "7_5",
-      "1486_4",
-      "116_5",
-      "116_2",
-      "7_4",
-      "194_4",
-      "116_3",
-      "153_2",
-      "7_1"
+      "6_1",
+      "363_3",
+      "128_4",
+      "25_1",
+      "6_0"
     ],
-    "hit": false
+    "hit": true
   },
   {
-    "question": "Which player missed a golden chance to double United's lead before halftime?",
-    "ground_truth": "38_41",
-    "retrieved_chunks": [
-      "116_3",
-      "7_3",
-      "155_5",
-      "192_5",
-      "116_2",
-      "1586_5",
-      "192_3",
-      "1596_1",
-      "7_1",
-      "358_4"
-    ],
-    "hit": false
-  },
-  {
-    "question": "Which goalkeeper collected two searching crosses after the break?",
-    "ground_truth": "38_42",
-    "retrieved_chunks": [
-      "358_2",
-      "7_4",
-      "1486_4",
-      "44_3",
-      "379_3",
-      "1586_5",
-      "1596_1",
-      "358_6",
-      "155_6",
-      "155_2"
-    ],
-    "hit": false
-  },
-  {
-    "question": "Who eventually rounded Jones and scored to secure the win?",
-    "ground_truth": "38_44",
-    "retrieved_chunks": [
-      "7_5",
-      "1543_0",
-      "115_1",
-      "7_6",
-      "81_7",
-      "7_2",
-      "1543_2",
-      "368_2",
-      "155_6",
-      "1604_3"
-    ],
-    "hit": false
-  },
-  {
-    "question": "Which England centre was passed fit for the Six Nations clash with Ireland?",
-    "ground_truth": "45_45",
-    "retrieved_chunks": [
-      "1569_0",
-      "92_4",
-      "1608_5",
-      "1515_2",
-      "1569_2",
-      "152_4",
-      "334_0",
-      "1515_0",
-      "1516_5",
-      "1441_6"
-    ],
-    "hit": false
-  },
-  {
-    "question": "Which Bath prop was called up after Phil Vickery broke his arm?",
-    "ground_truth": "45_46",
+    "question": "Which prop was called up after Phil Vickery's broken arm?",
+    "ground_truth": "6_1",
     "retrieved_chunks": [
       "371_0",
-      "371_1",
       "1446_0",
+      "372_1",
       "8_1",
-      "371_2",
-      "1542_0",
-      "1610_0",
-      "330_1",
-      "627_4",
-      "1542_1"
+      "356_2"
     ],
     "hit": false
   },
   {
-    "question": "Which country had Duncan Bell previously expressed an interest in playing for?",
-    "ground_truth": "45_47",
+    "question": "Which player was promoted from the senior national academy to contest the number nine jersey?",
+    "ground_truth": "6_5",
     "retrieved_chunks": [
-      "363_0",
-      "8_1",
-      "8_2",
-      "8_3",
-      "2139_4",
-      "372_0",
-      "625_1",
-      "363_1",
-      "2336_4",
-      "2336_2"
+      "6_5",
+      "97_1",
+      "333_3",
+      "1222_8",
+      "728_0"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Who scored the opener for Manchester United against Exeter City?",
+    "ground_truth": "7_0",
+    "retrieved_chunks": [
+      "7_0",
+      "192_0",
+      "192_5",
+      "7_1",
+      "1691_0"
+    ],
+    "hit": true
+  },
+  {
+    "question": "How many minutes after kickoff did Ronaldo score the opener?",
+    "ground_truth": "7_0",
+    "retrieved_chunks": [
+      "7_2",
+      "368_2",
+      "1424_1",
+      "1582_0",
+      "1425_1"
     ],
     "hit": false
   },
   {
-    "question": "Which Sale Sharks prop could be called into England's squad?",
-    "ground_truth": "45_48",
+    "question": "Who rounded Jones and slotted into an empty net to book a home tie with Middlesbrough?",
+    "ground_truth": "7_6",
+    "retrieved_chunks": [
+      "7_6",
+      "7_5",
+      "96_0",
+      "7_2",
+      "1552_6"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Why was Exeter's low effort ruled out?",
+    "ground_truth": "7_5",
+    "retrieved_chunks": [
+      "7_3",
+      "7_1",
+      "7_5",
+      "1486_4",
+      "7_0"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which England centre was passed fit for Sunday's Six Nations clash with Ireland?",
+    "ground_truth": "8_0",
+    "retrieved_chunks": [
+      "8_0",
+      "78_1",
+      "1569_8",
+      "1545_1",
+      "196_1"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which prop could make his England debut after Phil Vickery's broken arm?",
+    "ground_truth": "8_1",
+    "retrieved_chunks": [
+      "1446_0",
+      "371_0",
+      "8_1",
+      "363_0",
+      "6_3"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which uncapped Sale Sharks prop was mentioned as a more likely selection for England?",
+    "ground_truth": "8_3",
     "retrieved_chunks": [
       "372_2",
-      "372_3",
       "1545_1",
-      "1545_2",
       "8_3",
-      "367_2",
-      "6_3",
-      "363_1",
-      "655_1",
-      "180_3"
+      "180_3",
+      "1545_2"
     ],
-    "hit": false
+    "hit": true
   },
   {
-    "question": "Which Bristol City striker scored twice against Milton Keynes?",
-    "ground_truth": "49_49",
-    "retrieved_chunks": [
-      "9_0",
-      "192_5",
-      "194_1",
-      "630_3",
-      "194_5",
-      "194_2",
-      "194_3",
-      "96_0",
-      "638_3",
-      "358_2"
-    ],
-    "hit": false
-  },
-  {
-    "question": "How many goals had Leroy Lita scored for the season at that point?",
-    "ground_truth": "49_49",
-    "retrieved_chunks": [
-      "9_0",
-      "1480_1",
-      "1477_4",
-      "192_5",
-      "7_4",
-      "193_1",
-      "1475_3",
-      "13_3",
-      "155_5",
-      "50_1"
-    ],
-    "hit": false
-  },
-  {
-    "question": "Which Southampton player faced a possible seven-match FA ban?",
-    "ground_truth": "51_51",
+    "question": "Who faced a possible seven-match FA ban?",
+    "ground_truth": "10_0",
     "retrieved_chunks": [
       "10_0",
-      "627_2",
-      "1558_2",
-      "1558_1",
-      "196_3",
-      "50_1",
-      "10_2",
-      "1486_1",
-      "144_3",
-      "1477_5"
-    ],
-    "hit": false
-  },
-  {
-    "question": "Which player was previously given a seven-match suspension for pushing referee Paul Alcock?",
-    "ground_truth": "51_52",
-    "retrieved_chunks": [
-      "1570_3",
       "10_1",
-      "1570_0",
-      "1570_1",
-      "92_1",
-      "117_0",
-      "646_0",
-      "152_1",
-      "1552_5",
-      "196_5"
+      "871_0",
+      "30_2",
+      "1581_0"
     ],
-    "hit": false
+    "hit": true
   },
   {
-    "question": "To whom did David Prutton publicly apologise after his tackle?",
-    "ground_truth": "51_54",
+    "question": "How many charges of improper conduct did David Prutton admit to?",
+    "ground_truth": "10_0",
+    "retrieved_chunks": [
+      "10_0",
+      "2189_1",
+      "1477_5",
+      "1971_3",
+      "627_2"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which manager believed the FA would throw the book at Prutton?",
+    "ground_truth": "10_1",
+    "retrieved_chunks": [
+      "10_1",
+      "10_0",
+      "10_2",
+      "1581_0",
+      "10_4"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Who did Prutton apologise to after his wild tackle?",
+    "ground_truth": "10_3",
     "retrieved_chunks": [
       "10_2",
-      "10_0",
       "10_3",
-      "10_1",
-      "1534_2",
-      "905_1",
-      "879_4",
-      "879_1",
-      "627_2",
-      "1534_8"
+      "10_0",
+      "1534_8",
+      "10_1"
     ],
-    "hit": false
+    "hit": true
   },
   {
-    "question": "Which Charlton striker scored two goals against Norwich?",
-    "ground_truth": "56_56",
+    "question": "Who said there was no chance history would repeat itself when Chelsea faced Barcelona?",
+    "ground_truth": "12_0",
     "retrieved_chunks": [
-      "96_0",
-      "1604_0",
-      "96_5",
-      "96_4",
-      "192_5",
-      "137_3",
-      "96_2",
-      "1480_1",
-      "96_1",
-      "1528_3"
-    ],
-    "hit": false
-  },
-  {
-    "question": "Which Charlton manager praised Jonatan Johansson after the win over Norwich?",
-    "ground_truth": "56_56",
-    "retrieved_chunks": [
-      "11_0",
-      "96_4",
-      "96_5",
-      "96_6",
-      "1518_3",
-      "11_1",
-      "110_1",
-      "96_2",
-      "192_3",
-      "192_4"
-    ],
-    "hit": false
-  },
-  {
-    "question": "Which former Chelsea defender backed the club ahead of a trip to Barcelona?",
-    "ground_truth": "58_58",
-    "retrieved_chunks": [
-      "24_1",
       "139_0",
       "12_0",
-      "154_2",
+      "389_2",
+      "12_1",
+      "139_1"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which player scored two goals in the first leg against Barcelona?",
+    "ground_truth": "12_1",
+    "retrieved_chunks": [
+      "195_0",
+      "358_2",
+      "158_2",
+      "1425_1",
+      "12_1"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Who also scored in that first leg alongside Tore Andre Flo?",
+    "ground_truth": "12_1",
+    "retrieved_chunks": [
+      "1566_1",
+      "358_2",
+      "12_1",
+      "1604_7",
+      "139_1"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which Qatari club was Marcel Desailly playing for at the time?",
+    "ground_truth": "12_2",
+    "retrieved_chunks": [
+      "1466_6",
+      "359_1",
+      "1436_1",
+      "139_5",
+      "12_2"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which Manchester United winger said he was close to agreeing to a new contract at Old Trafford?",
+    "ground_truth": "5_0",
+    "retrieved_chunks": [
+      "5_0",
+      "1551_0",
+      "1691_0",
+      "2356_5",
+      "1471_1"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What contract length had Cristiano Ronaldo signed with Manchester United?",
+    "ground_truth": "5_0",
+    "retrieved_chunks": [
+      "5_0",
+      "1691_0",
+      "192_3",
+      "1691_6",
+      "1551_0"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Who will play Cyril Saulnier in the SAP Open final in San Jose?",
+    "ground_truth": "15_0",
+    "retrieved_chunks": [
+      "15_0",
+      "1556_0",
+      "1459_0",
+      "1502_0",
+      "1591_0"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which player survived an ankle injury scare against Jurgen Melzer?",
+    "ground_truth": "15_0",
+    "retrieved_chunks": [
+      "1523_1",
+      "1424_1",
+      "15_0",
+      "144_3",
+      "58_3"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Who was left fuming over a series of line calls in his match against Andy Roddick?",
+    "ground_truth": "15_1",
+    "retrieved_chunks": [
+      "15_1",
+      "138_1",
+      "1611_7",
+      "15_0",
+      "185_4"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which tennis star planned to return at the Antwerp WTA event in February?",
+    "ground_truth": "18_0",
+    "retrieved_chunks": [
+      "18_0",
+      "83_1",
+      "123_1",
+      "18_1",
+      "83_0"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Why did Kim Clijsters decide not to return in Paris?",
+    "ground_truth": "18_0",
+    "retrieved_chunks": [
+      "18_0",
+      "1489_0",
+      "1469_0",
+      "1469_1",
+      "1489_1"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Who described Spain's Davis Cup victory as the highlight of his career?",
+    "ground_truth": "21_0",
+    "retrieved_chunks": [
+      "1433_0",
+      "21_0",
+      "95_0",
+      "1579_2",
+      "370_0"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Whom did Moya beat to give Spain an unassailable Davis Cup lead?",
+    "ground_truth": "21_0",
+    "retrieved_chunks": [
+      "370_0",
+      "1433_0",
+      "95_0",
+      "21_0",
+      "370_4"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which Spaniard became the youngest player to win the Davis Cup?",
+    "ground_truth": "21_2",
+    "retrieved_chunks": [
+      "1433_2",
+      "21_2",
+      "1433_0",
+      "21_0",
+      "370_0"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which U.S. coach said his team should play more tennis on clay?",
+    "ground_truth": "21_3",
+    "retrieved_chunks": [
+      "1433_3",
+      "1504_7",
+      "21_3",
+      "370_2",
+      "21_4"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which Irish athlete's Olympic farewell was noted in the review of the year?",
+    "ground_truth": "22_0",
+    "retrieved_chunks": [
+      "22_0",
+      "1516_0",
+      "628_0",
+      "132_0",
+      "22_1"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which athlete was given a two-year ban after testing positive for EPO?",
+    "ground_truth": "22_2",
+    "retrieved_chunks": [
+      "181_9",
+      "22_2",
+      "663_4",
+      "644_3",
+      "1567_0"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which Irish runner was lucky to escape with his life after a car crash near Athens?",
+    "ground_truth": "22_3",
+    "retrieved_chunks": [
+      "22_3",
+      "22_0",
+      "667_1",
+      "1613_2",
+      "22_6"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Who scraped into the women's 5,000m final as a fastest loser?",
+    "ground_truth": "22_4",
+    "retrieved_chunks": [
+      "22_4",
+      "22_3",
+      "177_2",
+      "181_10",
+      "1589_7"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which Northern Ireland athlete was hampered by an Achilles problem before Athens?",
+    "ground_truth": "22_6",
+    "retrieved_chunks": [
+      "22_6",
+      "174_2",
+      "22_3",
+      "1187_0",
+      "22_1"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which injured Chelsea winger said he had only a small chance of returning against Barcelona?",
+    "ground_truth": "24_0",
+    "retrieved_chunks": [
       "24_0",
-      "1486_2",
-      "183_0",
+      "24_1",
       "154_1",
+      "154_0",
+      "139_0"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which club did Arjen Robben join Chelsea from?",
+    "ground_truth": "24_1",
+    "retrieved_chunks": [
+      "24_0",
       "635_0",
-      "154_0"
+      "1466_6",
+      "144_0",
+      "24_1"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What injury had sidelined Arjen Robben since the Blackburn match?",
+    "ground_truth": "24_0",
+    "retrieved_chunks": [
+      "144_0",
+      "144_1",
+      "635_0",
+      "144_3",
+      "24_0"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which clubs were charged by the FA over crowd trouble at Millwall's New Den?",
+    "ground_truth": "30_0",
+    "retrieved_chunks": [
+      "30_0",
+      "30_2",
+      "30_1",
+      "1558_0",
+      "1558_4"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which incident did Liverpool fans blame for sparking the crowd trouble?",
+    "ground_truth": "30_1",
+    "retrieved_chunks": [
+      "30_1",
+      "30_0",
+      "377_1",
+      "1558_2",
+      "377_0"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What did Millwall face charges for failing to prevent?",
+    "ground_truth": "30_2",
+    "retrieved_chunks": [
+      "30_2",
+      "30_0",
+      "30_1",
+      "1558_4",
+      "329_1"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Who beat David Nalbandian to open his campaign at the Kooyong Classic?",
+    "ground_truth": "32_0",
+    "retrieved_chunks": [
+      "32_0",
+      "60_4",
+      "32_1",
+      "138_0",
+      "20_1"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which world number one beat Gaston Gaudio while Henman won his match?",
+    "ground_truth": "32_0",
+    "retrieved_chunks": [
+      "93_4",
+      "159_0",
+      "32_0",
+      "159_2",
+      "159_1"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which American said he felt pretty good after coming back from more than two months out?",
+    "ground_truth": "32_4",
+    "retrieved_chunks": [
+      "1613_6",
+      "32_4",
+      "1160_3",
+      "138_4",
+      "147_4"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which Everton manager said James Beattie's dismissal was right after reviewing video evidence?",
+    "ground_truth": "47_0",
+    "retrieved_chunks": [
+      "47_0",
+      "166_0",
+      "47_1",
+      "166_1",
+      "354_6"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Who did Moyes say had gone down too easily after the incident with Beattie?",
+    "ground_truth": "47_3",
+    "retrieved_chunks": [
+      "47_1",
+      "47_0",
+      "166_0",
+      "47_4",
+      "166_1"
     ],
     "hit": false
+  },
+  {
+    "question": "Which defender did Moyes say would never have gone down in the same way?",
+    "ground_truth": "47_3",
+    "retrieved_chunks": [
+      "47_1",
+      "47_4",
+      "47_0",
+      "1486_5",
+      "642_5"
+    ],
+    "hit": false
+  },
+  {
+    "question": "Which manager was unhappy about Celtic's fixture against Valenciana?",
+    "ground_truth": "53_0",
+    "retrieved_chunks": [
+      "53_0",
+      "194_5",
+      "194_0",
+      "73_4",
+      "1528_1"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which manager said Bulgaria organise a lot of friendly games?",
+    "ground_truth": "53_2",
+    "retrieved_chunks": [
+      "53_2",
+      "53_0",
+      "26_0",
+      "1572_3",
+      "26_3"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Who did Sepp Blatter hope would win the men's FIFA World Player of the Year?",
+    "ground_truth": "178_0",
+    "retrieved_chunks": [
+      "178_0",
+      "333_3",
+      "97_2",
+      "341_0",
+      "20_0"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which female player wanted to regain the women's FIFA award?",
+    "ground_truth": "178_1",
+    "retrieved_chunks": [
+      "178_1",
+      "178_0",
+      "60_12",
+      "628_2",
+      "930_6"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which Brazilian youngster was shortlisted for the women's FIFA award?",
+    "ground_truth": "178_1",
+    "retrieved_chunks": [
+      "178_1",
+      "178_0",
+      "60_12",
+      "628_2",
+      "930_6"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Who denied that Arjen Robben would return for the match against Barcelona?",
+    "ground_truth": "635_0",
+    "retrieved_chunks": [
+      "635_0",
+      "24_0",
+      "144_0",
+      "24_1",
+      "635_1"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which club's medical coordinator said he had put everything right with Robben's foot?",
+    "ground_truth": "635_2",
+    "retrieved_chunks": [
+      "635_1",
+      "144_0",
+      "635_2",
+      "144_1",
+      "24_0"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which doctor treated Arjen Robben after his fractured foot?",
+    "ground_truth": "635_2",
+    "retrieved_chunks": [
+      "144_0",
+      "635_1",
+      "24_0",
+      "635_0",
+      "144_1"
+    ],
+    "hit": false
+  },
+  {
+    "question": "Which Barcelona assistant coach called Chelsea's complaint pathetic?",
+    "ground_truth": "643_0",
+    "retrieved_chunks": [
+      "643_0",
+      "1565_0",
+      "0_0",
+      "643_4",
+      "119_2"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Who said Chelsea's failure to attend the press conference was the only unusual thing?",
+    "ground_truth": "643_2",
+    "retrieved_chunks": [
+      "643_2",
+      "1581_2",
+      "643_3",
+      "1149_2",
+      "643_1"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Who said it was not typical of Portuguese players to lodge a protest?",
+    "ground_truth": "643_4",
+    "retrieved_chunks": [
+      "643_4",
+      "340_0",
+      "648_3",
+      "340_4",
+      "1539_2"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which coach criticized Mourinho for not speaking to the media after the match?",
+    "ground_truth": "643_3",
+    "retrieved_chunks": [
+      "126_3",
+      "122_0",
+      "122_4",
+      "1581_1",
+      "122_1"
+    ],
+    "hit": false
+  },
+  {
+    "question": "Who scored the first-minute goal against Barcelona?",
+    "ground_truth": "1425_0",
+    "retrieved_chunks": [
+      "1425_1",
+      "358_2",
+      "158_2",
+      "389_1",
+      "155_1"
+    ],
+    "hit": false
+  },
+  {
+    "question": "Who scored a brace for Real Madrid against Espanyol?",
+    "ground_truth": "1425_1",
+    "retrieved_chunks": [
+      "631_2",
+      "1462_0",
+      "1462_2",
+      "1425_2",
+      "1425_1"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which player came off with a shoulder injury but was expected to be fit for England's game?",
+    "ground_truth": "1425_1",
+    "retrieved_chunks": [
+      "82_3",
+      "1425_2",
+      "1425_1",
+      "78_1",
+      "25_1"
+    ],
+    "hit": true
+  },
+  {
+    "question": "How many consecutive Primera Liga games had Real won after the match?",
+    "ground_truth": "1425_2",
+    "retrieved_chunks": [
+      "1425_2",
+      "158_1",
+      "1582_0",
+      "631_2",
+      "1612_1"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which striker scored twice for Charlton in the win over Norwich?",
+    "ground_truth": "11_0",
+    "retrieved_chunks": [
+      "96_0",
+      "11_0",
+      "96_5",
+      "96_4",
+      "96_6"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Who paid tribute to Jonatan Johansson after the match?",
+    "ground_truth": "11_0",
+    "retrieved_chunks": [
+      "11_0",
+      "14_1",
+      "1476_0",
+      "1476_1",
+      "397_5"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Who took his goal tally to nine for the season in the LDV Vans Trophy win?",
+    "ground_truth": "9_0",
+    "retrieved_chunks": [
+      "9_0",
+      "17_3",
+      "1518_0",
+      "1475_3",
+      "138_4"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which goalkeeper made a good save from Richard Johnson?",
+    "ground_truth": "9_1",
+    "retrieved_chunks": [
+      "9_1",
+      "136_3",
+      "1493_6",
+      "1486_4",
+      "96_4"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Who was asked to put the team out of its misery after clearing five metres in training?",
+    "ground_truth": "1_0",
+    "retrieved_chunks": [
+      "1552_6",
+      "194_6",
+      "1_0",
+      "10_2",
+      "381_1"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which Kenyan runner was said to have been well beaten by Markos Geneti?",
+    "ground_truth": "1_8",
+    "retrieved_chunks": [
+      "1465_2",
+      "84_1",
+      "179_2",
+      "61_2",
+      "90_0"
+    ],
+    "hit": false
+  },
+  {
+    "question": "Which player could be considered after switching from the wing for Northampton?",
+    "ground_truth": "6_3",
+    "retrieved_chunks": [
+      "6_3",
+      "1446_4",
+      "638_5",
+      "372_2",
+      "1569_5"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which player said it was fantastic to get the opportunity to play for England?",
+    "ground_truth": "8_2",
+    "retrieved_chunks": [
+      "1526_2",
+      "8_2",
+      "1443_1",
+      "351_3",
+      "16_3"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which club does Andrew Sheridan represent?",
+    "ground_truth": "8_3",
+    "retrieved_chunks": [
+      "372_2",
+      "1466_6",
+      "1436_1",
+      "8_3",
+      "363_1"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Who forced Tim Howard to make a save in the replay against Exeter City?",
+    "ground_truth": "7_1",
+    "retrieved_chunks": [
+      "7_1",
+      "7_3",
+      "7_0",
+      "7_4",
+      "361_0"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which player dragged a left-foot effort badly wide in the replay?",
+    "ground_truth": "7_3",
+    "retrieved_chunks": [
+      "7_5",
+      "13_4",
+      "7_3",
+      "1596_5",
+      "764_1"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which club's arrival did Desailly say helped instil a winning mentality at Chelsea?",
+    "ground_truth": "12_3",
+    "retrieved_chunks": [
+      "139_3",
+      "12_3",
+      "139_4",
+      "12_4",
+      "12_0"
+    ],
+    "hit": true
+  },
+  {
+    "question": "What did Desailly say the club gained after Abramovich bought Chelsea?",
+    "ground_truth": "12_3",
+    "retrieved_chunks": [
+      "139_3",
+      "12_3",
+      "139_4",
+      "12_4",
+      "1436_1"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Who denied that Hillsborough chants were the catalyst for the trouble?",
+    "ground_truth": "30_1",
+    "retrieved_chunks": [
+      "30_1",
+      "1558_0",
+      "1532_1",
+      "1784_1",
+      "30_0"
+    ],
+    "hit": true
+  },
+  {
+    "question": "By when did both clubs have to respond to the FA charges?",
+    "ground_truth": "30_2",
+    "retrieved_chunks": [
+      "30_2",
+      "153_1",
+      "1581_0",
+      "365_4",
+      "30_1"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which runner did Sonia O'Sullivan finish behind in the women's 5,000m final?",
+    "ground_truth": "22_4",
+    "retrieved_chunks": [
+      "22_4",
+      "22_5",
+      "369_5",
+      "177_2",
+      "2248_3"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which opponent was Chelsea facing when Robben hoped to return?",
+    "ground_truth": "24_0",
+    "retrieved_chunks": [
+      "24_0",
+      "635_0",
+      "144_0",
+      "1486_0",
+      "24_1"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which former Everton midfielder scored his first goal for Real Madrid against Espanyol?",
+    "ground_truth": "1425_1",
+    "retrieved_chunks": [
+      "158_0",
+      "1462_0",
+      "1425_1",
+      "125_2",
+      "1462_2"
+    ],
+    "hit": true
   }
 ]
