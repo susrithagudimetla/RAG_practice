@@ -2,3 +2,15 @@
 
 test_gemini.py
 test_gemini2.py
+chunking_demo.py
+embedding_demo.py
+
+
+qa_dataset.json
+qa_dataset2.json
+qa_dataset3.json
+
+test_embedding.py
+
+tokenization_demo.py
+tokenization_demo2.py
