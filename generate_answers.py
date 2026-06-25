@@ -1,20 +1,19 @@
-import os
-from dotenv import load_dotenv
-from google import genai
+import requests
 
-load_dotenv()
-
-api_key = os.getenv("GEMINI_API_KEY")
-
-client = genai.Client(
-    api_key=api_key
-)
+OLLAMA_URL = "http://localhost:11434/api/generate"
 
 def generate_answer(prompt):
 
-    response = client.models.generate_content(
-        model="gemini-2.5-flash-lite",
-        contents=prompt
+    response = requests.post(
+        OLLAMA_URL,
+        json={
+            "model": "mistral",
+            "prompt": prompt,
+            "stream": False
+        },
+        timeout=300
     )
 
-    return response.text
+    response.raise_for_status()
+
+    return response.json()["response"]

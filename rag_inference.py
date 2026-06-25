@@ -1,23 +1,27 @@
 import json
+from pathlib import Path
+
 import numpy as np
 import faiss
 
 from sentence_transformers import SentenceTransformer
 from sklearn.feature_extraction.text import TfidfVectorizer
 
+BASE_DIR = Path(__file__).resolve().parent
+
 # =====================================
 # LOAD DATA
 # =====================================
 
 with open(
-    "bbc_chunks.json",
+    BASE_DIR / "bbc_chunks.json",
     "r",
     encoding="utf-8"
 ) as f:
     chunks = json.load(f)
 
 index = faiss.read_index(
-    "bbc_faiss.index"
+    str(BASE_DIR / "bbc_faiss.index")
 )
 
 model = SentenceTransformer(
@@ -209,38 +213,40 @@ def build_context(
 # TEST
 # =====================================
 
-question = (
-    "Who backed Chelsea's decision to sack Adrian Mutu?"
-)
+if __name__ == "__main__":
 
-retrieved_ids = retrieve(
-    question,
-    top_k=5
-)
+    question = (
+        "Who backed Chelsea's decision to sack Adrian Mutu?"
+    )
 
-print("\nRetrieved IDs:\n")
-print(retrieved_ids)
+    retrieved_ids = retrieve(
+        question,
+        top_k=5
+    )
 
-retrieved_texts = get_chunk_texts(
-    retrieved_ids
-)
+    print("\nRetrieved IDs:\n")
+    print(retrieved_ids)
 
-print("\nRetrieved Chunks:\n")
+    retrieved_texts = get_chunk_texts(
+        retrieved_ids
+    )
 
-for i, chunk in enumerate(
-    retrieved_texts,
-    start=1
-):
-    print(f"\nChunk {i}\n")
-    print(chunk)
+    print("\nRetrieved Chunks:\n")
 
-context = build_context(
-    retrieved_texts
-)
+    for i, chunk in enumerate(
+        retrieved_texts,
+        start=1
+    ):
+        print(f"\nChunk {i}\n")
+        print(chunk)
 
-print("\n")
-print("=" * 80)
-print("FINAL CONTEXT")
-print("=" * 80)
+    context = build_context(
+        retrieved_texts
+    )
 
-print(context)
+    print("\n")
+    print("=" * 80)
+    print("FINAL CONTEXT")
+    print("=" * 80)
+
+    print(context)

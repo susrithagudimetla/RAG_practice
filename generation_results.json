@@ -1,0 +1,1002 @@
+[
+  {
+    "question": "Why did Chelsea sack Adrian Mutu?",
+    "question_index": 0,
+    "ground_truth": "He failed a drugs test.",
+    "prediction": " Chelsea sacked Adrian Mutu after he failed a drugs test.",
+    "exact_match": 0,
+    "f1": 0.6666666666666666,
+    "rougeL": 0.6666666666666666,
+    "semantic_similarity": 0.5103461742401123
+  },
+  {
+    "question": "What did Mutu test positive for?",
+    "question_index": 1,
+    "ground_truth": "A banned substance.",
+    "prediction": " The context does not specify the exact name of the banned substance that Adrian Mutu tested positive for. However, it mentions that he initially was reported to have failed a drugs test due to cocaine, but later suggested it was a substance designed to enhance sexual performance.",
+    "exact_match": 0,
+    "f1": 0.12,
+    "rougeL": 0.08,
+    "semantic_similarity": 0.6095501780509949
+  },
+  {
+    "question": "What drug policy does Chelsea say it has?",
+    "question_index": 2,
+    "ground_truth": "A zero tolerance policy towards drugs.",
+    "prediction": " Chelsea says it has a zero tolerance policy towards both performance-enhancing drugs and so-called recreational drugs. They have no place at their club or in sport.",
+    "exact_match": 0,
+    "f1": 0.375,
+    "rougeL": 0.35294117647058826,
+    "semantic_similarity": 0.40163543820381165
+  },
+  {
+    "question": "How many goals did Mutu score in his first five games?",
+    "question_index": 3,
+    "ground_truth": "Six goals.",
+    "prediction": " Mutu scored six goals in his first five games.",
+    "exact_match": 0,
+    "f1": 0.3636363636363636,
+    "rougeL": 0.3636363636363636,
+    "semantic_similarity": 0.5025215148925781
+  },
+  {
+    "question": "What ban does FIFA's disciplinary code say should follow a first doping offence?",
+    "question_index": 4,
+    "ground_truth": "A sixmonth ban.",
+    "prediction": " A six-month ban follows a first doping offence, according to FIFA's disciplinary code.",
+    "exact_match": 0,
+    "f1": 0.375,
+    "rougeL": 0.2222222222222222,
+    "semantic_similarity": 0.626837968826294
+  },
+  {
+    "question": "Which athlete produced another world pole vault record at the Birmingham meet?",
+    "question_index": 5,
+    "ground_truth": "Yelena Isinbayeva.",
+    "prediction": " Yelena Isinbayeva",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9751837253570557
+  },
+  {
+    "question": "Who looked good and was very positive at the athletics meet?",
+    "question_index": 6,
+    "ground_truth": "Kelly Holmes.",
+    "prediction": " Kelly Holmes",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9801660776138306
+  },
+  {
+    "question": "Who finished second in the women's national 400m race?",
+    "question_index": 7,
+    "ground_truth": "Kim Wall.",
+    "prediction": " I could not find the answer in the provided context. There is no mention of a women's national 400m race in the provided text.",
+    "exact_match": 0,
+    "f1": 0,
+    "rougeL": 0.0,
+    "semantic_similarity": 0.17187809944152832
+  },
+  {
+    "question": "Why was Mark Lewis-Francis disqualified?",
+    "question_index": 8,
+    "ground_truth": "For a false start.",
+    "prediction": " Mark Lewis-Francis was disqualified for false starting.",
+    "exact_match": 0,
+    "f1": 0.36363636363636365,
+    "rougeL": 0.5,
+    "semantic_similarity": 0.5096951127052307
+  },
+  {
+    "question": "Which Kenyan was well beaten by Markos Geneti?",
+    "question_index": 9,
+    "ground_truth": "Kenenisa Bekele.",
+    "prediction": " I could not find the answer in the provided context. The context does not mention a Kenyan being \"well beaten\" by Markos Geneti.",
+    "exact_match": 0,
+    "f1": 0,
+    "rougeL": 0.0,
+    "semantic_similarity": 0.15129029750823975
+  },
+  {
+    "question": "Which Arsenal player described the tunnel fracas after Manchester United's win?",
+    "question_index": 10,
+    "ground_truth": "Edu.",
+    "prediction": " Edu, the Brazilian player.",
+    "exact_match": 0,
+    "f1": 0.4,
+    "rougeL": 0.4,
+    "semantic_similarity": 0.4504786431789398
+  },
+  {
+    "question": "What did Edu say he did not see being thrown at anyone?",
+    "question_index": 11,
+    "ground_truth": "Soup.",
+    "prediction": " I could not find the answer in the provided context. The context does not mention any object being thrown at someone, specifically by Edu.",
+    "exact_match": 0,
+    "f1": 0,
+    "rougeL": 0.0,
+    "semantic_similarity": 0.084058478474617
+  },
+  {
+    "question": "Which player was charged with serious foul play after the tunnel incident?",
+    "question_index": 12,
+    "ground_truth": "Ruud van Nistelrooy.",
+    "prediction": " Ruud van Nistelrooy",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9737128019332886
+  },
+  {
+    "question": "Who said the victory over England was a special win?",
+    "question_index": 13,
+    "ground_truth": "Ronan O'Gara.",
+    "prediction": " Ronan O'Gara said the victory over England was a special win.",
+    "exact_match": 0,
+    "f1": 0.3076923076923077,
+    "rougeL": 0.4,
+    "semantic_similarity": 0.41854214668273926
+  },
+  {
+    "question": "Which Ireland captain scored his side's only try?",
+    "question_index": 14,
+    "ground_truth": "Brian O'Driscoll.",
+    "prediction": " Brian O'Driscoll scored Ireland's only try in the given context.",
+    "exact_match": 0,
+    "f1": 0.33333333333333337,
+    "rougeL": 0.4,
+    "semantic_similarity": 0.6232590675354004
+  },
+  {
+    "question": "Which coach was surprised Andy Robinson was certain Mark Cueto was onside?",
+    "question_index": 15,
+    "ground_truth": "Eddie O'Sullivan.",
+    "prediction": " Eddie O'Sullivan was surprised that Andy Robinson said he was certain Mark Cueto was onside.",
+    "exact_match": 0,
+    "f1": 0.23529411764705882,
+    "rougeL": 0.3157894736842105,
+    "semantic_similarity": 0.4360691010951996
+  },
+  {
+    "question": "Who insisted Ireland were happy to handle the pressure of being favourites?",
+    "question_index": 16,
+    "ground_truth": "Brian O'Driscoll.",
+    "prediction": " Charlie Hodgson insisted Ireland were happy to handle the pressure of being favourites.",
+    "exact_match": 0,
+    "f1": 0,
+    "rougeL": 0.0,
+    "semantic_similarity": 0.20890921354293823
+  },
+  {
+    "question": "Which Liverpool forward was uncertain if he remained part of Rafa Benitez's plans?",
+    "question_index": 17,
+    "ground_truth": "Milan Baros.",
+    "prediction": " Milan Baros",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9782376885414124
+  },
+  {
+    "question": "Which cup final was Milan Baros dropped for?",
+    "question_index": 18,
+    "ground_truth": "The Carling Cup final.",
+    "prediction": " The Carling Cup Final",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9830998182296753
+  },
+  {
+    "question": "Which Wasps scrumhalf was recalled to England's training squad?",
+    "question_index": 19,
+    "ground_truth": "Matt Dawson.",
+    "prediction": " Matt Dawson",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9812477827072144
+  },
+  {
+    "question": "Which centre was also selected for England's training squad?",
+    "question_index": 20,
+    "ground_truth": "Mathew Tait.",
+    "prediction": " Mathew Tait",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9785020351409912
+  },
+  {
+    "question": "Which prop was called up after Phil Vickery's broken arm?",
+    "question_index": 21,
+    "ground_truth": "Duncan Bell.",
+    "prediction": " Duncan Bell",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9768227934837341
+  },
+  {
+    "question": "Which player was promoted from the senior national academy to contest the number nine jersey?",
+    "question_index": 22,
+    "ground_truth": "Harry Ellis.",
+    "prediction": " Harry Ellis was promoted from the senior national academy to contest the number nine jersey.",
+    "exact_match": 0,
+    "f1": 0.23529411764705882,
+    "rougeL": 0.23529411764705882,
+    "semantic_similarity": 0.49512308835983276
+  },
+  {
+    "question": "Who scored the opener for Manchester United against Exeter City?",
+    "question_index": 23,
+    "ground_truth": "Cristiano Ronaldo.",
+    "prediction": " Cristiano Ronaldo",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9801281690597534
+  },
+  {
+    "question": "How many minutes after kickoff did Ronaldo score the opener?",
+    "question_index": 24,
+    "ground_truth": "Nine minutes.",
+    "prediction": " I could not find the exact number of minutes after kickoff when Ronaldo scored the opener in the provided context.",
+    "exact_match": 0,
+    "f1": 0.09090909090909091,
+    "rougeL": 0.09090909090909091,
+    "semantic_similarity": 0.4035753607749939
+  },
+  {
+    "question": "Who rounded Jones and slotted into an empty net to book a home tie with Middlesbrough?",
+    "question_index": 25,
+    "ground_truth": "Wayne Rooney.",
+    "prediction": " Persistent Rooney",
+    "exact_match": 0,
+    "f1": 0.5,
+    "rougeL": 0.5,
+    "semantic_similarity": 0.5987081527709961
+  },
+  {
+    "question": "Why was Exeter's low effort ruled out?",
+    "question_index": 26,
+    "ground_truth": "Offside.",
+    "prediction": " I could not find the specific reason why Exeter's low effort was ruled out in the provided context.",
+    "exact_match": 0,
+    "f1": 0,
+    "rougeL": 0.0,
+    "semantic_similarity": 0.29426029324531555
+  },
+  {
+    "question": "Which England centre was passed fit for Sunday's Six Nations clash with Ireland?",
+    "question_index": 27,
+    "ground_truth": "Olly Barkley.",
+    "prediction": " Olly Barkley",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9863030314445496
+  },
+  {
+    "question": "Which prop could make his England debut after Phil Vickery's broken arm?",
+    "question_index": 28,
+    "ground_truth": "Duncan Bell.",
+    "prediction": " Duncan Bell could make his England debut.",
+    "exact_match": 0,
+    "f1": 0.4444444444444445,
+    "rougeL": 0.4444444444444445,
+    "semantic_similarity": 0.6113153100013733
+  },
+  {
+    "question": "Which uncapped Sale Sharks prop was mentioned as a more likely selection for England?",
+    "question_index": 29,
+    "ground_truth": "Andrew Sheridan.",
+    "prediction": " Andrew Sheridan is the uncapped Sale Sharks prop mentioned as a more likely selection for England.",
+    "exact_match": 0,
+    "f1": 0.2222222222222222,
+    "rougeL": 0.2222222222222222,
+    "semantic_similarity": 0.5270077586174011
+  },
+  {
+    "question": "Who faced a possible seven-match FA ban?",
+    "question_index": 30,
+    "ground_truth": "David Prutton.",
+    "prediction": " David Prutton",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9748088717460632
+  },
+  {
+    "question": "How many charges of improper conduct did David Prutton admit to?",
+    "question_index": 31,
+    "ground_truth": "Two.",
+    "prediction": " David Prutton admitted to two charges of improper conduct.",
+    "exact_match": 0,
+    "f1": 0.19999999999999998,
+    "rougeL": 0.19999999999999998,
+    "semantic_similarity": 0.2028275728225708
+  },
+  {
+    "question": "Which manager believed the FA would throw the book at Prutton?",
+    "question_index": 32,
+    "ground_truth": "Harry Redknapp.",
+    "prediction": " Harry Redknapp",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9813868999481201
+  },
+  {
+    "question": "Who did Prutton apologise to after his wild tackle?",
+    "question_index": 33,
+    "ground_truth": "Robert Pires.",
+    "prediction": " Prutton apologised to Arsenal's Robert Pires and to referees and linesmen.",
+    "exact_match": 0,
+    "f1": 0.3076923076923077,
+    "rougeL": 0.2857142857142857,
+    "semantic_similarity": 0.44864198565483093
+  },
+  {
+    "question": "Who said there was no chance history would repeat itself when Chelsea faced Barcelona?",
+    "question_index": 34,
+    "ground_truth": "Marcel Desailly.",
+    "prediction": " Marcel Desailly",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.975829005241394
+  },
+  {
+    "question": "Which player scored two goals in the first leg against Barcelona?",
+    "question_index": 35,
+    "ground_truth": "Tore Andre Flo.",
+    "prediction": " Tore Andre Flo.",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9999998807907104
+  },
+  {
+    "question": "Who also scored in that first leg alongside Tore Andre Flo?",
+    "question_index": 36,
+    "ground_truth": "Gianfranco Zola.",
+    "prediction": " Gianfranco Zola. He is the other player who scored in that first leg alongside Tore Andre Flo. (The context does not provide information about the second scorer from Chelsea in the first leg, but as it mentions \"two goals\" scored by Tore and one by \"Zola\", we can infer that Zola was the second scorer.)",
+    "exact_match": 0,
+    "f1": 0.07017543859649122,
+    "rougeL": 0.07017543859649122,
+    "semantic_similarity": 0.49790531396865845
+  },
+  {
+    "question": "Which Qatari club was Marcel Desailly playing for at the time?",
+    "question_index": 37,
+    "ground_truth": "Al-Gharafa.",
+    "prediction": " Algharafa (in Qatar)",
+    "exact_match": 0,
+    "f1": 0.5,
+    "rougeL": 0.0,
+    "semantic_similarity": 0.6471236348152161
+  },
+  {
+    "question": "Which Manchester United winger said he was close to agreeing to a new contract at Old Trafford?",
+    "question_index": 38,
+    "ground_truth": "Cristiano Ronaldo.",
+    "prediction": " Cristiano Ronaldo",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9801281690597534
+  },
+  {
+    "question": "What contract length had Cristiano Ronaldo signed with Manchester United?",
+    "question_index": 39,
+    "ground_truth": "A five-year deal.",
+    "prediction": " Five years, as mentioned in the context.",
+    "exact_match": 0,
+    "f1": 0,
+    "rougeL": 0.36363636363636365,
+    "semantic_similarity": 0.5771112442016602
+  },
+  {
+    "question": "Who will play Cyril Saulnier in the SAP Open final in San Jose?",
+    "question_index": 40,
+    "ground_truth": "Andy Roddick.",
+    "prediction": " Andy Roddick",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9839413166046143
+  },
+  {
+    "question": "Which player survived an ankle injury scare against Jurgen Melzer?",
+    "question_index": 41,
+    "ground_truth": "Cyril Saulnier.",
+    "prediction": " Andy Roddick",
+    "exact_match": 0,
+    "f1": 0,
+    "rougeL": 0.0,
+    "semantic_similarity": 0.394737184047699
+  },
+  {
+    "question": "Who was left fuming over a series of line calls in his match against Andy Roddick?",
+    "question_index": 42,
+    "ground_truth": "Tommy Haas.",
+    "prediction": " Jurgen Melzer was left fuming over a series of line calls in his match against Andy Roddick.",
+    "exact_match": 0,
+    "f1": 0,
+    "rougeL": 0.0,
+    "semantic_similarity": 0.17407488822937012
+  },
+  {
+    "question": "Which tennis star planned to return at the Antwerp WTA event in February?",
+    "question_index": 43,
+    "ground_truth": "Kim Clijsters.",
+    "prediction": " Kim Clijsters",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9786018133163452
+  },
+  {
+    "question": "Why did Kim Clijsters decide not to return in Paris?",
+    "question_index": 44,
+    "ground_truth": "To avoid risking the final phase of her recovery.",
+    "prediction": " Kim Clijsters decided not to return in Paris because she wants to avoid risking the final phase of her recovery.",
+    "exact_match": 0,
+    "f1": 0.6206896551724138,
+    "rougeL": 0.6206896551724138,
+    "semantic_similarity": 0.3859090805053711
+  },
+  {
+    "question": "Who described Spain's Davis Cup victory as the highlight of his career?",
+    "question_index": 45,
+    "ground_truth": "Carlos Moya.",
+    "prediction": " Carlos Moya",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9746295809745789
+  },
+  {
+    "question": "Whom did Moya beat to give Spain an unassailable Davis Cup lead?",
+    "question_index": 46,
+    "ground_truth": "Andy Roddick.",
+    "prediction": " Andy Roddick",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9839413166046143
+  },
+  {
+    "question": "Which Spaniard became the youngest player to win the Davis Cup?",
+    "question_index": 47,
+    "ground_truth": "Rafael Nadal.",
+    "prediction": " Rafael Nadal",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9811129570007324
+  },
+  {
+    "question": "Which U.S. coach said his team should play more tennis on clay?",
+    "question_index": 48,
+    "ground_truth": "Patrick McEnroe.",
+    "prediction": " Patrick McEnroe",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9804908037185669
+  },
+  {
+    "question": "Which Irish athlete's Olympic farewell was noted in the review of the year?",
+    "question_index": 49,
+    "ground_truth": "Sonia O'Sullivan.",
+    "prediction": " Sonia O'Sullivan",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9604666233062744
+  },
+  {
+    "question": "Which athlete was given a two-year ban after testing positive for EPO?",
+    "question_index": 50,
+    "ground_truth": "Cathal Lombard.",
+    "prediction": " I could not find the answer in the provided context. The context does mention several athletes being banned for various substances, but it does not specify any athlete as being banned for EPO.",
+    "exact_match": 0,
+    "f1": 0,
+    "rougeL": 0.0,
+    "semantic_similarity": 0.1158592700958252
+  },
+  {
+    "question": "Which Irish runner was lucky to escape with his life after a car crash near Athens?",
+    "question_index": 51,
+    "ground_truth": "Jamie Costin.",
+    "prediction": " Jamie Costin",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9744418263435364
+  },
+  {
+    "question": "Who scraped into the women's 5,000m final as a fastest loser?",
+    "question_index": 52,
+    "ground_truth": "Sonia O'Sullivan.",
+    "prediction": " Sonia (in the provided context)",
+    "exact_match": 0,
+    "f1": 0.28571428571428575,
+    "rougeL": 0.25,
+    "semantic_similarity": 0.6181784272193909
+  },
+  {
+    "question": "Which Northern Ireland athlete was hampered by an Achilles problem before Athens?",
+    "question_index": 53,
+    "ground_truth": "Paul Brizzel.",
+    "prediction": " Paul Brizzel",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9704145193099976
+  },
+  {
+    "question": "Which injured Chelsea winger said he had only a small chance of returning against Barcelona?",
+    "question_index": 54,
+    "ground_truth": "Arjen Robben.",
+    "prediction": " Arjen Robben",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9838679432868958
+  },
+  {
+    "question": "Which club did Arjen Robben join Chelsea from?",
+    "question_index": 55,
+    "ground_truth": "PSV Eindhoven.",
+    "prediction": " PSV Eindhoven.",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 1.0000001192092896
+  },
+  {
+    "question": "What injury had sidelined Arjen Robben since the Blackburn match?",
+    "question_index": 56,
+    "ground_truth": "A fractured foot.",
+    "prediction": " Arjen Robben was sidelined with a broken foot since the Blackburn match.",
+    "exact_match": 0,
+    "f1": 0.26666666666666666,
+    "rougeL": 0.26666666666666666,
+    "semantic_similarity": 0.45813441276550293
+  },
+  {
+    "question": "Which clubs were charged by the FA over crowd trouble at Millwall's New Den?",
+    "question_index": 57,
+    "ground_truth": "Liverpool and Millwall.",
+    "prediction": " The clubs charged by the FA over crowd trouble at Millwall's New Den are Liverpool and Millwall.",
+    "exact_match": 0,
+    "f1": 0.3,
+    "rougeL": 0.2857142857142857,
+    "semantic_similarity": 0.6832942962646484
+  },
+  {
+    "question": "Which incident did Liverpool fans blame for sparking the crowd trouble?",
+    "question_index": 58,
+    "ground_truth": "Chants about the Hillsborough disaster.",
+    "prediction": " The Liverpool fans blamed chants about the Hillsborough disaster for sparking the crowd trouble.",
+    "exact_match": 0,
+    "f1": 0.5263157894736842,
+    "rougeL": 0.5263157894736842,
+    "semantic_similarity": 0.7711058855056763
+  },
+  {
+    "question": "What did Millwall face charges for failing to prevent?",
+    "question_index": 59,
+    "ground_truth": "Spectators throwing missiles onto the pitch.",
+    "prediction": " Millwall faced charges for failing to prevent racist and abusive behaviour, and for failing to prevent spectators throwing missiles onto the pitch.",
+    "exact_match": 0,
+    "f1": 0.42857142857142855,
+    "rougeL": 0.42857142857142855,
+    "semantic_similarity": 0.5000314116477966
+  },
+  {
+    "question": "Who beat David Nalbandian to open his campaign at the Kooyong Classic?",
+    "question_index": 60,
+    "ground_truth": "Tim Henman.",
+    "prediction": " Tim Henman beat David Nalbandian to open his campaign at the Kooyong Classic.",
+    "exact_match": 0,
+    "f1": 0.2666666666666667,
+    "rougeL": 0.2666666666666667,
+    "semantic_similarity": 0.573330283164978
+  },
+  {
+    "question": "Which world number one beat Gaston Gaudio while Henman won his match?",
+    "question_index": 61,
+    "ground_truth": "Roger Federer.",
+    "prediction": " Andy Roddick (in the context provided, it is not specified who is the world number one for tennis, but in the given context Andy Roddick beat Gaston Gaudio).",
+    "exact_match": 0,
+    "f1": 0,
+    "rougeL": 0.0,
+    "semantic_similarity": 0.6545372009277344
+  },
+  {
+    "question": "Which American said he felt pretty good after coming back from more than two months out?",
+    "question_index": 62,
+    "ground_truth": "Andre Agassi.",
+    "prediction": " Agassi said he felt pretty good after coming back from more than two months out.",
+    "exact_match": 0,
+    "f1": 0.11764705882352941,
+    "rougeL": 0.11764705882352941,
+    "semantic_similarity": 0.43534108996391296
+  },
+  {
+    "question": "Which Everton manager said James Beattie's dismissal was right after reviewing video evidence?",
+    "question_index": 63,
+    "ground_truth": "David Moyes.",
+    "prediction": " David Moyes",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.960647463798523
+  },
+  {
+    "question": "Who did Moyes say had gone down too easily after the incident with Beattie?",
+    "question_index": 64,
+    "ground_truth": "William Gallas.",
+    "prediction": " I could not find the answer in the provided context. The context does not mention who went down too easily after the incident with Beattie, only that Beattie initially defended himself and mentioned someone (presumably Galarrga) would have stayed down longer if he had headbutted him.",
+    "exact_match": 0,
+    "f1": 0,
+    "rougeL": 0.0,
+    "semantic_similarity": 0.21988697350025177
+  },
+  {
+    "question": "Which defender did Moyes say would never have gone down in the same way?",
+    "question_index": 65,
+    "ground_truth": "John Terry.",
+    "prediction": " Willian Gallas (based on the provided context)",
+    "exact_match": 0,
+    "f1": 0,
+    "rougeL": 0.0,
+    "semantic_similarity": 0.25713908672332764
+  },
+  {
+    "question": "Which manager was unhappy about Celtic's fixture against Valenciana?",
+    "question_index": 66,
+    "ground_truth": "Martin O'Neill.",
+    "prediction": " Martin O'Neill",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9707907438278198
+  },
+  {
+    "question": "Which manager said Bulgaria organise a lot of friendly games?",
+    "question_index": 67,
+    "ground_truth": "Martin O'Neill.",
+    "prediction": " Hristo Stoichkov (the Bulgarian Manager) mentioned that Bulgaria seem to organize a lot of friendly games.",
+    "exact_match": 0,
+    "f1": 0,
+    "rougeL": 0.0,
+    "semantic_similarity": 0.01188414916396141
+  },
+  {
+    "question": "Who did Sepp Blatter hope would win the men's FIFA World Player of the Year?",
+    "question_index": 68,
+    "ground_truth": "Thierry Henry.",
+    "prediction": " Thierry Henry",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9734646677970886
+  },
+  {
+    "question": "Which female player wanted to regain the women's FIFA award?",
+    "question_index": 69,
+    "ground_truth": "Mia Hamm.",
+    "prediction": " Mia Hamm wanted to regain the women's FIFA award.",
+    "exact_match": 0,
+    "f1": 0.3636363636363636,
+    "rougeL": 0.33333333333333337,
+    "semantic_similarity": 0.6127690076828003
+  },
+  {
+    "question": "Which Brazilian youngster was shortlisted for the women's FIFA award?",
+    "question_index": 70,
+    "ground_truth": "Marta.",
+    "prediction": " Marta",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9702687859535217
+  },
+  {
+    "question": "Who denied that Arjen Robben would return for the match against Barcelona?",
+    "question_index": 71,
+    "ground_truth": "Peter Kenyon.",
+    "prediction": " Peter Kenyon, Chelsea Chief Executive.",
+    "exact_match": 0,
+    "f1": 0.5714285714285715,
+    "rougeL": 0.5714285714285715,
+    "semantic_similarity": 0.5214860439300537
+  },
+  {
+    "question": "Which club's medical coordinator said he had put everything right with Robben's foot?",
+    "question_index": 72,
+    "ground_truth": "AC Milan.",
+    "prediction": " Jean Pierre Meersseman, the medical coordinator at AC Milan.",
+    "exact_match": 0,
+    "f1": 0.3636363636363636,
+    "rougeL": 0.3636363636363636,
+    "semantic_similarity": 0.4037213921546936
+  },
+  {
+    "question": "Which doctor treated Arjen Robben after his fractured foot?",
+    "question_index": 73,
+    "ground_truth": "Jean Pierre Meersseman.",
+    "prediction": " I could not find the name of the specific doctor who treated Arjen Robben after his fractured foot in the provided context.",
+    "exact_match": 0,
+    "f1": 0,
+    "rougeL": 0.0,
+    "semantic_similarity": 0.3415929675102234
+  },
+  {
+    "question": "Which Barcelona assistant coach called Chelsea's complaint pathetic?",
+    "question_index": 74,
+    "ground_truth": "Henk ten Cate.",
+    "prediction": " Henk ten Cate called Chelsea's complaint pathetic.",
+    "exact_match": 0,
+    "f1": 0.6,
+    "rougeL": 0.5454545454545454,
+    "semantic_similarity": 0.3920648694038391
+  },
+  {
+    "question": "Who said Chelsea's failure to attend the press conference was the only unusual thing?",
+    "question_index": 75,
+    "ground_truth": "Thomas Giordano.",
+    "prediction": " UEFA delegate Thomas Giordano said that Chelsea's failure to attend the press conference was the only unusual thing.",
+    "exact_match": 0,
+    "f1": 0.19999999999999998,
+    "rougeL": 0.1904761904761905,
+    "semantic_similarity": 0.26237303018569946
+  },
+  {
+    "question": "Who said it was not typical of Portuguese players to lodge a protest?",
+    "question_index": 76,
+    "ground_truth": "Deco.",
+    "prediction": " Deco, the Barca midfielder.",
+    "exact_match": 0,
+    "f1": 0.4,
+    "rougeL": 0.4,
+    "semantic_similarity": 0.7220704555511475
+  },
+  {
+    "question": "Which coach criticized Mourinho for not speaking to the media after the match?",
+    "question_index": 77,
+    "ground_truth": "Frank Rijkaard.",
+    "prediction": " I could not find information in the provided context about a coach criticizing Mourinho for not speaking to the media after the match.",
+    "exact_match": 0,
+    "f1": 0,
+    "rougeL": 0.0,
+    "semantic_similarity": 0.29529494047164917
+  },
+  {
+    "question": "Who scored the first-minute goal against Barcelona?",
+    "question_index": 78,
+    "ground_truth": "Fernando Torres.",
+    "prediction": " I could not find the answer in the provided context. The given context only discusses goals scored against Espanyol and Liverpool, but no goal against Barcelona is mentioned.",
+    "exact_match": 0,
+    "f1": 0,
+    "rougeL": 0.0,
+    "semantic_similarity": 0.3732271194458008
+  },
+  {
+    "question": "Who scored a brace for Real Madrid against Espanyol?",
+    "question_index": 79,
+    "ground_truth": "Raul.",
+    "prediction": " Raul scored a brace for Real Madrid against Espanyol.",
+    "exact_match": 0,
+    "f1": 0.19999999999999998,
+    "rougeL": 0.19999999999999998,
+    "semantic_similarity": 0.5153636932373047
+  },
+  {
+    "question": "Which player came off with a shoulder injury but was expected to be fit for England's game?",
+    "question_index": 80,
+    "ground_truth": "David Beckham.",
+    "prediction": " David Beckham",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9846639037132263
+  },
+  {
+    "question": "How many consecutive Primera Liga games had Real won after the match?",
+    "question_index": 81,
+    "ground_truth": "Six.",
+    "prediction": " Six",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.965528130531311
+  },
+  {
+    "question": "Which striker scored twice for Charlton in the win over Norwich?",
+    "question_index": 82,
+    "ground_truth": "Jonatan Johansson.",
+    "prediction": " Jonatan Johansson",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.975766658782959
+  },
+  {
+    "question": "Who paid tribute to Jonatan Johansson after the match?",
+    "question_index": 83,
+    "ground_truth": "Alan Curbishley.",
+    "prediction": " Alan Curbishley, Charlton manager.",
+    "exact_match": 0,
+    "f1": 0.6666666666666666,
+    "rougeL": 0.6666666666666666,
+    "semantic_similarity": 0.7461939454078674
+  },
+  {
+    "question": "Who took his goal tally to nine for the season in the LDV Vans Trophy win?",
+    "question_index": 84,
+    "ground_truth": "Leroy Lita.",
+    "prediction": " Leroy Lita",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9789960980415344
+  },
+  {
+    "question": "Which goalkeeper made a good save from Richard Johnson?",
+    "question_index": 85,
+    "ground_truth": "Steve Phillips.",
+    "prediction": " James (from context: james mills)",
+    "exact_match": 0,
+    "f1": 0,
+    "rougeL": 0.0,
+    "semantic_similarity": 0.3531060814857483
+  },
+  {
+    "question": "Who was asked to put the team out of its misery after clearing five metres in training?",
+    "question_index": 86,
+    "ground_truth": "Yelena Isinbayeva.",
+    "prediction": " I could not find the answer in the provided context. The context does not specify who was asked to clear 5 metres in training. It only mentions Yelena Isinbayeva who had cleared 5 metres in training, but there is no mention of anyone asking her to do so.",
+    "exact_match": 0,
+    "f1": 0.07999999999999999,
+    "rougeL": 0.07999999999999999,
+    "semantic_similarity": 0.4043448567390442
+  },
+  {
+    "question": "Which Kenyan runner was said to have been well beaten by Markos Geneti?",
+    "question_index": 87,
+    "ground_truth": "Kenenisa Bekele.",
+    "prediction": " I could not find the answer in the provided context. The text does mention that Markos Geneti came close to winning a race, but it's unclear who he defeated or was competing against when he won. The only Kenyan runner mentioned to have been beaten is Chepkemei in the London Marathon, but this incident occurred with Paula Radcliffe, not with Markos Geneti.",
+    "exact_match": 0,
+    "f1": 0,
+    "rougeL": 0.0,
+    "semantic_similarity": 0.14790025353431702
+  },
+  {
+    "question": "Which player could be considered after switching from the wing for Northampton?",
+    "question_index": 88,
+    "ground_truth": "Ben Cohen.",
+    "prediction": " Ben Cohen",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9795807600021362
+  },
+  {
+    "question": "Which player said it was fantastic to get the opportunity to play for England?",
+    "question_index": 89,
+    "ground_truth": "Duncan Bell.",
+    "prediction": " Corry, as stated in the context: \"I thought id burned all my bridges with england when i expressed an interest in wanting to play for wales so its fantastic to get this opportunity he said.\"",
+    "exact_match": 0,
+    "f1": 0,
+    "rougeL": 0.0,
+    "semantic_similarity": 0.26884397864341736
+  },
+  {
+    "question": "Which club does Andrew Sheridan represent?",
+    "question_index": 90,
+    "ground_truth": "Sale Sharks.",
+    "prediction": " Sale Sharks",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9749510884284973
+  },
+  {
+    "question": "Who forced Tim Howard to make a save in the replay against Exeter City?",
+    "question_index": 91,
+    "ground_truth": "Andrew Taylor.",
+    "prediction": " Andrew Taylor",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9769629836082458
+  },
+  {
+    "question": "Which player dragged a left-foot effort badly wide in the replay?",
+    "question_index": 92,
+    "ground_truth": "Ryan Giggs.",
+    "prediction": " Ryan Giggs. According to the context, \"he dragged a leftfoot effort badly wide\" is attributed to Giggs.",
+    "exact_match": 0,
+    "f1": 0.21052631578947367,
+    "rougeL": 0.21052631578947367,
+    "semantic_similarity": 0.6437844634056091
+  },
+  {
+    "question": "Which club's arrival did Desailly say helped instil a winning mentality at Chelsea?",
+    "question_index": 93,
+    "ground_truth": "Roman Abramovich.",
+    "prediction": " Roman Abramovich's arrival.",
+    "exact_match": 0,
+    "f1": 0.4,
+    "rougeL": 0.6666666666666666,
+    "semantic_similarity": 0.6915187239646912
+  },
+  {
+    "question": "What did Desailly say the club gained after Abramovich bought Chelsea?",
+    "question_index": 94,
+    "ground_truth": "A winning mentality and a demand for success.",
+    "prediction": " Desailly said the Russians arrival helped to instil a winning mentality and a demand for success at the club.",
+    "exact_match": 0,
+    "f1": 0.5185185185185185,
+    "rougeL": 0.5925925925925926,
+    "semantic_similarity": 0.48650529980659485
+  },
+  {
+    "question": "Who denied that Hillsborough chants were the catalyst for the trouble?",
+    "question_index": 95,
+    "ground_truth": "Theo Paphitis.",
+    "prediction": " Theo Paphitis has denied that Hillsborough chants were the catalyst for the trouble.",
+    "exact_match": 0,
+    "f1": 0.2666666666666667,
+    "rougeL": 0.2666666666666667,
+    "semantic_similarity": 0.36202627420425415
+  },
+  {
+    "question": "By when did both clubs have to respond to the FA charges?",
+    "question_index": 96,
+    "ground_truth": "December.",
+    "prediction": " Both clubs had until December to respond to the FA charges.",
+    "exact_match": 0,
+    "f1": 0.16666666666666669,
+    "rougeL": 0.16666666666666669,
+    "semantic_similarity": 0.33076196908950806
+  },
+  {
+    "question": "Which runner did Sonia O'Sullivan finish behind in the women's 5,000m final?",
+    "question_index": 97,
+    "ground_truth": "Meseret Defar.",
+    "prediction": " Meseret Defar.",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 1.0
+  },
+  {
+    "question": "Which opponent was Chelsea facing when Robben hoped to return?",
+    "question_index": 98,
+    "ground_truth": "Barcelona.",
+    "prediction": " Barcelona.",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 1.0000001192092896
+  },
+  {
+    "question": "Which former Everton midfielder scored his first goal for Real Madrid against Espanyol?",
+    "question_index": 99,
+    "ground_truth": "Thomas Gravesen.",
+    "prediction": " Thomas Gravesen",
+    "exact_match": 1,
+    "f1": 1.0,
+    "rougeL": 1.0,
+    "semantic_similarity": 0.9844963550567627
+  }
+]

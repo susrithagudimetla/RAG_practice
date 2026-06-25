@@ -1,0 +1,101 @@
+question,question_index,ground_truth,prediction,exact_match,f1,rougeL,semantic_similarity
+Why did Chelsea sack Adrian Mutu?,0,He failed a drugs test., Chelsea sacked Adrian Mutu after he failed a drugs test.,0,0.6666666666666666,0.6666666666666666,0.5103461742401123
+What did Mutu test positive for?,1,A banned substance.," The context does not specify the exact name of the banned substance that Adrian Mutu tested positive for. However, it mentions that he initially was reported to have failed a drugs test due to cocaine, but later suggested it was a substance designed to enhance sexual performance.",0,0.12,0.08,0.6095501780509949
+What drug policy does Chelsea say it has?,2,A zero tolerance policy towards drugs., Chelsea says it has a zero tolerance policy towards both performance-enhancing drugs and so-called recreational drugs. They have no place at their club or in sport.,0,0.375,0.35294117647058826,0.40163543820381165
+How many goals did Mutu score in his first five games?,3,Six goals., Mutu scored six goals in his first five games.,0,0.3636363636363636,0.3636363636363636,0.5025215148925781
+What ban does FIFA's disciplinary code say should follow a first doping offence?,4,A sixmonth ban.," A six-month ban follows a first doping offence, according to FIFA's disciplinary code.",0,0.375,0.2222222222222222,0.626837968826294
+Which athlete produced another world pole vault record at the Birmingham meet?,5,Yelena Isinbayeva., Yelena Isinbayeva,1,1.0,1.0,0.9751837253570557
+Who looked good and was very positive at the athletics meet?,6,Kelly Holmes., Kelly Holmes,1,1.0,1.0,0.9801660776138306
+Who finished second in the women's national 400m race?,7,Kim Wall., I could not find the answer in the provided context. There is no mention of a women's national 400m race in the provided text.,0,0.0,0.0,0.17187809944152832
+Why was Mark Lewis-Francis disqualified?,8,For a false start., Mark Lewis-Francis was disqualified for false starting.,0,0.36363636363636365,0.5,0.5096951127052307
+Which Kenyan was well beaten by Markos Geneti?,9,Kenenisa Bekele.," I could not find the answer in the provided context. The context does not mention a Kenyan being ""well beaten"" by Markos Geneti.",0,0.0,0.0,0.15129029750823975
+Which Arsenal player described the tunnel fracas after Manchester United's win?,10,Edu.," Edu, the Brazilian player.",0,0.4,0.4,0.4504786431789398
+What did Edu say he did not see being thrown at anyone?,11,Soup.," I could not find the answer in the provided context. The context does not mention any object being thrown at someone, specifically by Edu.",0,0.0,0.0,0.084058478474617
+Which player was charged with serious foul play after the tunnel incident?,12,Ruud van Nistelrooy., Ruud van Nistelrooy,1,1.0,1.0,0.9737128019332886
+Who said the victory over England was a special win?,13,Ronan O'Gara., Ronan O'Gara said the victory over England was a special win.,0,0.3076923076923077,0.4,0.41854214668273926
+Which Ireland captain scored his side's only try?,14,Brian O'Driscoll., Brian O'Driscoll scored Ireland's only try in the given context.,0,0.33333333333333337,0.4,0.6232590675354004
+Which coach was surprised Andy Robinson was certain Mark Cueto was onside?,15,Eddie O'Sullivan., Eddie O'Sullivan was surprised that Andy Robinson said he was certain Mark Cueto was onside.,0,0.23529411764705882,0.3157894736842105,0.4360691010951996
+Who insisted Ireland were happy to handle the pressure of being favourites?,16,Brian O'Driscoll., Charlie Hodgson insisted Ireland were happy to handle the pressure of being favourites.,0,0.0,0.0,0.20890921354293823
+Which Liverpool forward was uncertain if he remained part of Rafa Benitez's plans?,17,Milan Baros., Milan Baros,1,1.0,1.0,0.9782376885414124
+Which cup final was Milan Baros dropped for?,18,The Carling Cup final., The Carling Cup Final,1,1.0,1.0,0.9830998182296753
+Which Wasps scrumhalf was recalled to England's training squad?,19,Matt Dawson., Matt Dawson,1,1.0,1.0,0.9812477827072144
+Which centre was also selected for England's training squad?,20,Mathew Tait., Mathew Tait,1,1.0,1.0,0.9785020351409912
+Which prop was called up after Phil Vickery's broken arm?,21,Duncan Bell., Duncan Bell,1,1.0,1.0,0.9768227934837341
+Which player was promoted from the senior national academy to contest the number nine jersey?,22,Harry Ellis., Harry Ellis was promoted from the senior national academy to contest the number nine jersey.,0,0.23529411764705882,0.23529411764705882,0.49512308835983276
+Who scored the opener for Manchester United against Exeter City?,23,Cristiano Ronaldo., Cristiano Ronaldo,1,1.0,1.0,0.9801281690597534
+How many minutes after kickoff did Ronaldo score the opener?,24,Nine minutes., I could not find the exact number of minutes after kickoff when Ronaldo scored the opener in the provided context.,0,0.09090909090909091,0.09090909090909091,0.4035753607749939
+Who rounded Jones and slotted into an empty net to book a home tie with Middlesbrough?,25,Wayne Rooney., Persistent Rooney,0,0.5,0.5,0.5987081527709961
+Why was Exeter's low effort ruled out?,26,Offside., I could not find the specific reason why Exeter's low effort was ruled out in the provided context.,0,0.0,0.0,0.29426029324531555
+Which England centre was passed fit for Sunday's Six Nations clash with Ireland?,27,Olly Barkley., Olly Barkley,1,1.0,1.0,0.9863030314445496
+Which prop could make his England debut after Phil Vickery's broken arm?,28,Duncan Bell., Duncan Bell could make his England debut.,0,0.4444444444444445,0.4444444444444445,0.6113153100013733
+Which uncapped Sale Sharks prop was mentioned as a more likely selection for England?,29,Andrew Sheridan., Andrew Sheridan is the uncapped Sale Sharks prop mentioned as a more likely selection for England.,0,0.2222222222222222,0.2222222222222222,0.5270077586174011
+Who faced a possible seven-match FA ban?,30,David Prutton., David Prutton,1,1.0,1.0,0.9748088717460632
+How many charges of improper conduct did David Prutton admit to?,31,Two., David Prutton admitted to two charges of improper conduct.,0,0.19999999999999998,0.19999999999999998,0.2028275728225708
+Which manager believed the FA would throw the book at Prutton?,32,Harry Redknapp., Harry Redknapp,1,1.0,1.0,0.9813868999481201
+Who did Prutton apologise to after his wild tackle?,33,Robert Pires., Prutton apologised to Arsenal's Robert Pires and to referees and linesmen.,0,0.3076923076923077,0.2857142857142857,0.44864198565483093
+Who said there was no chance history would repeat itself when Chelsea faced Barcelona?,34,Marcel Desailly., Marcel Desailly,1,1.0,1.0,0.975829005241394
+Which player scored two goals in the first leg against Barcelona?,35,Tore Andre Flo., Tore Andre Flo.,1,1.0,1.0,0.9999998807907104
+Who also scored in that first leg alongside Tore Andre Flo?,36,Gianfranco Zola.," Gianfranco Zola. He is the other player who scored in that first leg alongside Tore Andre Flo. (The context does not provide information about the second scorer from Chelsea in the first leg, but as it mentions ""two goals"" scored by Tore and one by ""Zola"", we can infer that Zola was the second scorer.)",0,0.07017543859649122,0.07017543859649122,0.49790531396865845
+Which Qatari club was Marcel Desailly playing for at the time?,37,Al-Gharafa., Algharafa (in Qatar),0,0.5,0.0,0.6471236348152161
+Which Manchester United winger said he was close to agreeing to a new contract at Old Trafford?,38,Cristiano Ronaldo., Cristiano Ronaldo,1,1.0,1.0,0.9801281690597534
+What contract length had Cristiano Ronaldo signed with Manchester United?,39,A five-year deal.," Five years, as mentioned in the context.",0,0.0,0.36363636363636365,0.5771112442016602
+Who will play Cyril Saulnier in the SAP Open final in San Jose?,40,Andy Roddick., Andy Roddick,1,1.0,1.0,0.9839413166046143
+Which player survived an ankle injury scare against Jurgen Melzer?,41,Cyril Saulnier., Andy Roddick,0,0.0,0.0,0.394737184047699
+Who was left fuming over a series of line calls in his match against Andy Roddick?,42,Tommy Haas., Jurgen Melzer was left fuming over a series of line calls in his match against Andy Roddick.,0,0.0,0.0,0.17407488822937012
+Which tennis star planned to return at the Antwerp WTA event in February?,43,Kim Clijsters., Kim Clijsters,1,1.0,1.0,0.9786018133163452
+Why did Kim Clijsters decide not to return in Paris?,44,To avoid risking the final phase of her recovery., Kim Clijsters decided not to return in Paris because she wants to avoid risking the final phase of her recovery.,0,0.6206896551724138,0.6206896551724138,0.3859090805053711
+Who described Spain's Davis Cup victory as the highlight of his career?,45,Carlos Moya., Carlos Moya,1,1.0,1.0,0.9746295809745789
+Whom did Moya beat to give Spain an unassailable Davis Cup lead?,46,Andy Roddick., Andy Roddick,1,1.0,1.0,0.9839413166046143
+Which Spaniard became the youngest player to win the Davis Cup?,47,Rafael Nadal., Rafael Nadal,1,1.0,1.0,0.9811129570007324
+Which U.S. coach said his team should play more tennis on clay?,48,Patrick McEnroe., Patrick McEnroe,1,1.0,1.0,0.9804908037185669
+Which Irish athlete's Olympic farewell was noted in the review of the year?,49,Sonia O'Sullivan., Sonia O'Sullivan,1,1.0,1.0,0.9604666233062744
+Which athlete was given a two-year ban after testing positive for EPO?,50,Cathal Lombard.," I could not find the answer in the provided context. The context does mention several athletes being banned for various substances, but it does not specify any athlete as being banned for EPO.",0,0.0,0.0,0.1158592700958252
+Which Irish runner was lucky to escape with his life after a car crash near Athens?,51,Jamie Costin., Jamie Costin,1,1.0,1.0,0.9744418263435364
+"Who scraped into the women's 5,000m final as a fastest loser?",52,Sonia O'Sullivan., Sonia (in the provided context),0,0.28571428571428575,0.25,0.6181784272193909
+Which Northern Ireland athlete was hampered by an Achilles problem before Athens?,53,Paul Brizzel., Paul Brizzel,1,1.0,1.0,0.9704145193099976
+Which injured Chelsea winger said he had only a small chance of returning against Barcelona?,54,Arjen Robben., Arjen Robben,1,1.0,1.0,0.9838679432868958
+Which club did Arjen Robben join Chelsea from?,55,PSV Eindhoven., PSV Eindhoven.,1,1.0,1.0,1.0000001192092896
+What injury had sidelined Arjen Robben since the Blackburn match?,56,A fractured foot., Arjen Robben was sidelined with a broken foot since the Blackburn match.,0,0.26666666666666666,0.26666666666666666,0.45813441276550293
+Which clubs were charged by the FA over crowd trouble at Millwall's New Den?,57,Liverpool and Millwall., The clubs charged by the FA over crowd trouble at Millwall's New Den are Liverpool and Millwall.,0,0.3,0.2857142857142857,0.6832942962646484
+Which incident did Liverpool fans blame for sparking the crowd trouble?,58,Chants about the Hillsborough disaster., The Liverpool fans blamed chants about the Hillsborough disaster for sparking the crowd trouble.,0,0.5263157894736842,0.5263157894736842,0.7711058855056763
+What did Millwall face charges for failing to prevent?,59,Spectators throwing missiles onto the pitch.," Millwall faced charges for failing to prevent racist and abusive behaviour, and for failing to prevent spectators throwing missiles onto the pitch.",0,0.42857142857142855,0.42857142857142855,0.5000314116477966
+Who beat David Nalbandian to open his campaign at the Kooyong Classic?,60,Tim Henman., Tim Henman beat David Nalbandian to open his campaign at the Kooyong Classic.,0,0.2666666666666667,0.2666666666666667,0.573330283164978
+Which world number one beat Gaston Gaudio while Henman won his match?,61,Roger Federer.," Andy Roddick (in the context provided, it is not specified who is the world number one for tennis, but in the given context Andy Roddick beat Gaston Gaudio).",0,0.0,0.0,0.6545372009277344
+Which American said he felt pretty good after coming back from more than two months out?,62,Andre Agassi., Agassi said he felt pretty good after coming back from more than two months out.,0,0.11764705882352941,0.11764705882352941,0.43534108996391296
+Which Everton manager said James Beattie's dismissal was right after reviewing video evidence?,63,David Moyes., David Moyes,1,1.0,1.0,0.960647463798523
+Who did Moyes say had gone down too easily after the incident with Beattie?,64,William Gallas.," I could not find the answer in the provided context. The context does not mention who went down too easily after the incident with Beattie, only that Beattie initially defended himself and mentioned someone (presumably Galarrga) would have stayed down longer if he had headbutted him.",0,0.0,0.0,0.21988697350025177
+Which defender did Moyes say would never have gone down in the same way?,65,John Terry., Willian Gallas (based on the provided context),0,0.0,0.0,0.25713908672332764
+Which manager was unhappy about Celtic's fixture against Valenciana?,66,Martin O'Neill., Martin O'Neill,1,1.0,1.0,0.9707907438278198
+Which manager said Bulgaria organise a lot of friendly games?,67,Martin O'Neill., Hristo Stoichkov (the Bulgarian Manager) mentioned that Bulgaria seem to organize a lot of friendly games.,0,0.0,0.0,0.01188414916396141
+Who did Sepp Blatter hope would win the men's FIFA World Player of the Year?,68,Thierry Henry., Thierry Henry,1,1.0,1.0,0.9734646677970886
+Which female player wanted to regain the women's FIFA award?,69,Mia Hamm., Mia Hamm wanted to regain the women's FIFA award.,0,0.3636363636363636,0.33333333333333337,0.6127690076828003
+Which Brazilian youngster was shortlisted for the women's FIFA award?,70,Marta., Marta,1,1.0,1.0,0.9702687859535217
+Who denied that Arjen Robben would return for the match against Barcelona?,71,Peter Kenyon.," Peter Kenyon, Chelsea Chief Executive.",0,0.5714285714285715,0.5714285714285715,0.5214860439300537
+Which club's medical coordinator said he had put everything right with Robben's foot?,72,AC Milan.," Jean Pierre Meersseman, the medical coordinator at AC Milan.",0,0.3636363636363636,0.3636363636363636,0.4037213921546936
+Which doctor treated Arjen Robben after his fractured foot?,73,Jean Pierre Meersseman., I could not find the name of the specific doctor who treated Arjen Robben after his fractured foot in the provided context.,0,0.0,0.0,0.3415929675102234
+Which Barcelona assistant coach called Chelsea's complaint pathetic?,74,Henk ten Cate., Henk ten Cate called Chelsea's complaint pathetic.,0,0.6,0.5454545454545454,0.3920648694038391
+Who said Chelsea's failure to attend the press conference was the only unusual thing?,75,Thomas Giordano., UEFA delegate Thomas Giordano said that Chelsea's failure to attend the press conference was the only unusual thing.,0,0.19999999999999998,0.1904761904761905,0.26237303018569946
+Who said it was not typical of Portuguese players to lodge a protest?,76,Deco.," Deco, the Barca midfielder.",0,0.4,0.4,0.7220704555511475
+Which coach criticized Mourinho for not speaking to the media after the match?,77,Frank Rijkaard., I could not find information in the provided context about a coach criticizing Mourinho for not speaking to the media after the match.,0,0.0,0.0,0.29529494047164917
+Who scored the first-minute goal against Barcelona?,78,Fernando Torres.," I could not find the answer in the provided context. The given context only discusses goals scored against Espanyol and Liverpool, but no goal against Barcelona is mentioned.",0,0.0,0.0,0.3732271194458008
+Who scored a brace for Real Madrid against Espanyol?,79,Raul., Raul scored a brace for Real Madrid against Espanyol.,0,0.19999999999999998,0.19999999999999998,0.5153636932373047
+Which player came off with a shoulder injury but was expected to be fit for England's game?,80,David Beckham., David Beckham,1,1.0,1.0,0.9846639037132263
+How many consecutive Primera Liga games had Real won after the match?,81,Six., Six,1,1.0,1.0,0.965528130531311
+Which striker scored twice for Charlton in the win over Norwich?,82,Jonatan Johansson., Jonatan Johansson,1,1.0,1.0,0.975766658782959
+Who paid tribute to Jonatan Johansson after the match?,83,Alan Curbishley.," Alan Curbishley, Charlton manager.",0,0.6666666666666666,0.6666666666666666,0.7461939454078674
+Who took his goal tally to nine for the season in the LDV Vans Trophy win?,84,Leroy Lita., Leroy Lita,1,1.0,1.0,0.9789960980415344
+Which goalkeeper made a good save from Richard Johnson?,85,Steve Phillips., James (from context: james mills),0,0.0,0.0,0.3531060814857483
+Who was asked to put the team out of its misery after clearing five metres in training?,86,Yelena Isinbayeva.," I could not find the answer in the provided context. The context does not specify who was asked to clear 5 metres in training. It only mentions Yelena Isinbayeva who had cleared 5 metres in training, but there is no mention of anyone asking her to do so.",0,0.07999999999999999,0.07999999999999999,0.4043448567390442
+Which Kenyan runner was said to have been well beaten by Markos Geneti?,87,Kenenisa Bekele.," I could not find the answer in the provided context. The text does mention that Markos Geneti came close to winning a race, but it's unclear who he defeated or was competing against when he won. The only Kenyan runner mentioned to have been beaten is Chepkemei in the London Marathon, but this incident occurred with Paula Radcliffe, not with Markos Geneti.",0,0.0,0.0,0.14790025353431702
+Which player could be considered after switching from the wing for Northampton?,88,Ben Cohen., Ben Cohen,1,1.0,1.0,0.9795807600021362
+Which player said it was fantastic to get the opportunity to play for England?,89,Duncan Bell.," Corry, as stated in the context: ""I thought id burned all my bridges with england when i expressed an interest in wanting to play for wales so its fantastic to get this opportunity he said.""",0,0.0,0.0,0.26884397864341736
+Which club does Andrew Sheridan represent?,90,Sale Sharks., Sale Sharks,1,1.0,1.0,0.9749510884284973
+Who forced Tim Howard to make a save in the replay against Exeter City?,91,Andrew Taylor., Andrew Taylor,1,1.0,1.0,0.9769629836082458
+Which player dragged a left-foot effort badly wide in the replay?,92,Ryan Giggs.," Ryan Giggs. According to the context, ""he dragged a leftfoot effort badly wide"" is attributed to Giggs.",0,0.21052631578947367,0.21052631578947367,0.6437844634056091
+Which club's arrival did Desailly say helped instil a winning mentality at Chelsea?,93,Roman Abramovich., Roman Abramovich's arrival.,0,0.4,0.6666666666666666,0.6915187239646912
+What did Desailly say the club gained after Abramovich bought Chelsea?,94,A winning mentality and a demand for success., Desailly said the Russians arrival helped to instil a winning mentality and a demand for success at the club.,0,0.5185185185185185,0.5925925925925926,0.48650529980659485
+Who denied that Hillsborough chants were the catalyst for the trouble?,95,Theo Paphitis., Theo Paphitis has denied that Hillsborough chants were the catalyst for the trouble.,0,0.2666666666666667,0.2666666666666667,0.36202627420425415
+By when did both clubs have to respond to the FA charges?,96,December., Both clubs had until December to respond to the FA charges.,0,0.16666666666666669,0.16666666666666669,0.33076196908950806
+"Which runner did Sonia O'Sullivan finish behind in the women's 5,000m final?",97,Meseret Defar., Meseret Defar.,1,1.0,1.0,1.0
+Which opponent was Chelsea facing when Robben hoped to return?,98,Barcelona., Barcelona.,1,1.0,1.0,1.0000001192092896
+Which former Everton midfielder scored his first goal for Real Madrid against Espanyol?,99,Thomas Gravesen., Thomas Gravesen,1,1.0,1.0,0.9844963550567627
