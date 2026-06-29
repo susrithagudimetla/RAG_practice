@@ -6,8 +6,8 @@
       "0_0",
       "0_4",
       "1598_0",
-      "1598_2",
-      "1598_3"
+      "1598_1",
+      "652_0"
     ],
     "hit": true
   },
@@ -16,10 +16,10 @@
     "ground_truth": "0_0",
     "retrieved_chunks": [
       "0_0",
+      "1598_0",
       "0_5",
-      "652_1",
-      "663_4",
-      "0_4"
+      "1598_1",
+      "0_1"
     ],
     "hit": true
   },
@@ -27,11 +27,11 @@
     "question": "What drug policy does Chelsea say it has?",
     "ground_truth": "0_1",
     "retrieved_chunks": [
-      "0_0",
       "0_1",
-      "1908_0",
-      "0_2",
-      "1875_0"
+      "0_0",
+      "0_3",
+      "1598_1",
+      "1430_1"
     ],
     "hit": true
   },
@@ -39,13 +39,13 @@
     "question": "How many goals did Mutu score in his first five games?",
     "ground_truth": "0_1",
     "retrieved_chunks": [
+      "0_1",
       "0_0",
-      "41_2",
-      "139_5",
-      "652_0",
-      "12_5"
+      "175_2",
+      "1598_1",
+      "652_0"
     ],
-    "hit": false
+    "hit": true
   },
   {
     "question": "What ban does FIFA's disciplinary code say should follow a first doping offence?",
@@ -55,7 +55,7 @@
       "0_2",
       "1567_0",
       "1499_0",
-      "1525_2"
+      "181_9"
     ],
     "hit": true
   },
@@ -63,11 +63,11 @@
     "question": "Which athlete produced another world pole vault record at the Birmingham meet?",
     "ground_truth": "1_0",
     "retrieved_chunks": [
-      "1538_0",
-      "1589_3",
       "1_0",
-      "369_8",
-      "85_6"
+      "187_0",
+      "1538_0",
+      "112_1",
+      "112_0"
     ],
     "hit": true
   },
@@ -75,9 +75,9 @@
     "question": "Who looked good and was very positive at the athletics meet?",
     "ground_truth": "1_1",
     "retrieved_chunks": [
-      "1_2",
-      "85_5",
       "1_1",
+      "1_2",
+      "337_1",
       "1_5",
       "657_2"
     ],
@@ -87,11 +87,11 @@
     "question": "Who finished second in the women's national 400m race?",
     "ground_truth": "1_5",
     "retrieved_chunks": [
-      "1465_3",
-      "1554_1",
+      "1589_4",
+      "109_5",
       "1589_6",
-      "930_6",
-      "177_2"
+      "1554_1",
+      "1589_7"
     ],
     "hit": false
   },
@@ -100,10 +100,10 @@
     "ground_truth": "1_4",
     "retrieved_chunks": [
       "1_4",
-      "22_2",
-      "1589_2",
       "1589_1",
-      "353_3"
+      "1589_2",
+      "369_2",
+      "1474_4"
     ],
     "hit": true
   },
@@ -111,23 +111,23 @@
     "question": "Which Kenyan was well beaten by Markos Geneti?",
     "ground_truth": "1_8",
     "retrieved_chunks": [
+      "1_8",
+      "1_7",
       "1465_2",
-      "90_0",
-      "61_2",
-      "179_2",
+      "112_1",
       "1589_7"
     ],
-    "hit": false
+    "hit": true
   },
   {
     "question": "Which Arsenal player described the tunnel fracas after Manchester United's win?",
     "ground_truth": "2_0",
     "retrieved_chunks": [
-      "127_0",
       "2_0",
+      "127_0",
       "375_0",
-      "373_4",
-      "1462_3"
+      "1534_9",
+      "1586_0"
     ],
     "hit": true
   },
@@ -135,11 +135,11 @@
     "question": "What did Edu say he did not see being thrown at anyone?",
     "ground_truth": "2_0",
     "retrieved_chunks": [
-      "2_0",
       "2_1",
-      "1452_0",
-      "1452_4",
-      "153_2"
+      "2_0",
+      "1215_4",
+      "153_2",
+      "1452_3"
     ],
     "hit": true
   },
@@ -147,11 +147,11 @@
     "question": "Which player was charged with serious foul play after the tunnel incident?",
     "ground_truth": "2_2",
     "retrieved_chunks": [
+      "2_2",
       "127_0",
-      "30_1",
-      "30_2",
       "2_0",
-      "2_2"
+      "153_0",
+      "153_2"
     ],
     "hit": true
   },
@@ -160,10 +160,10 @@
     "ground_truth": "3_0",
     "retrieved_chunks": [
       "3_0",
-      "198_8",
-      "196_2",
+      "3_1",
       "59_2",
-      "650_6"
+      "59_1",
+      "160_1"
     ],
     "hit": true
   },
@@ -171,11 +171,11 @@
     "question": "Which Ireland captain scored his side's only try?",
     "ground_truth": "3_2",
     "retrieved_chunks": [
-      "44_0",
-      "379_0",
+      "3_1",
       "1599_0",
-      "379_2",
-      "44_2"
+      "1569_0",
+      "379_0",
+      "44_0"
     ],
     "hit": false
   },
@@ -184,10 +184,10 @@
     "ground_truth": "3_3",
     "retrieved_chunks": [
       "3_2",
-      "92_2",
-      "152_2",
-      "91_0",
-      "92_0"
+      "196_3",
+      "152_0",
+      "92_0",
+      "1441_0"
     ],
     "hit": false
   },
@@ -195,23 +195,23 @@
     "question": "Who insisted Ireland were happy to handle the pressure of being favourites?",
     "ground_truth": "3_4",
     "retrieved_chunks": [
-      "27_3",
-      "1599_1",
+      "3_4",
       "16_3",
-      "167_2",
-      "1602_4"
+      "27_3",
+      "161_3",
+      "1575_3"
     ],
-    "hit": false
+    "hit": true
   },
   {
     "question": "Which Liverpool forward was uncertain if he remained part of Rafa Benitez's plans?",
     "ground_truth": "4_0",
     "retrieved_chunks": [
       "4_0",
-      "662_0",
-      "195_0",
       "1573_2",
-      "392_4"
+      "129_0",
+      "662_0",
+      "1514_3"
     ],
     "hit": true
   },
@@ -221,9 +221,9 @@
     "retrieved_chunks": [
       "4_0",
       "1540_0",
-      "154_1",
-      "139_5",
-      "12_5"
+      "358_6",
+      "358_5",
+      "1491_3"
     ],
     "hit": true
   },
@@ -232,9 +232,9 @@
     "ground_truth": "6_0",
     "retrieved_chunks": [
       "6_0",
-      "6_4",
+      "1545_0",
       "1446_2",
-      "6_5",
+      "364_0",
       "6_3"
     ],
     "hit": true
@@ -243,11 +243,11 @@
     "question": "Which centre was also selected for England's training squad?",
     "ground_truth": "6_1",
     "retrieved_chunks": [
+      "1545_0",
       "6_1",
+      "6_0",
       "363_3",
-      "128_4",
-      "25_1",
-      "6_0"
+      "170_1"
     ],
     "hit": true
   },
@@ -255,11 +255,11 @@
     "question": "Which prop was called up after Phil Vickery's broken arm?",
     "ground_truth": "6_1",
     "retrieved_chunks": [
-      "371_0",
-      "1446_0",
-      "372_1",
       "8_1",
-      "356_2"
+      "1446_0",
+      "8_0",
+      "371_1",
+      "371_0"
     ],
     "hit": false
   },
@@ -269,9 +269,9 @@
     "retrieved_chunks": [
       "6_5",
       "97_1",
-      "333_3",
-      "1222_8",
-      "728_0"
+      "6_4",
+      "2020_7",
+      "41_2"
     ],
     "hit": true
   },
@@ -281,9 +281,9 @@
     "retrieved_chunks": [
       "7_0",
       "192_0",
-      "192_5",
       "7_1",
-      "1691_0"
+      "361_0",
+      "192_5"
     ],
     "hit": true
   },
@@ -291,13 +291,13 @@
     "question": "How many minutes after kickoff did Ronaldo score the opener?",
     "ground_truth": "7_0",
     "retrieved_chunks": [
-      "7_2",
-      "368_2",
-      "1424_1",
+      "7_0",
       "1582_0",
-      "1425_1"
+      "116_4",
+      "116_2",
+      "7_2"
     ],
-    "hit": false
+    "hit": true
   },
   {
     "question": "Who rounded Jones and slotted into an empty net to book a home tie with Middlesbrough?",
@@ -305,9 +305,9 @@
     "retrieved_chunks": [
       "7_6",
       "7_5",
+      "361_0",
       "96_0",
-      "7_2",
-      "1552_6"
+      "1451_1"
     ],
     "hit": true
   },
@@ -316,9 +316,9 @@
     "ground_truth": "7_5",
     "retrieved_chunks": [
       "7_3",
-      "7_1",
       "7_5",
-      "1486_4",
+      "92_0",
+      "152_0",
       "7_0"
     ],
     "hit": true
@@ -328,10 +328,10 @@
     "ground_truth": "8_0",
     "retrieved_chunks": [
       "8_0",
-      "78_1",
-      "1569_8",
-      "1545_1",
-      "196_1"
+      "196_1",
+      "334_0",
+      "1461_0",
+      "41_0"
     ],
     "hit": true
   },
@@ -339,11 +339,11 @@
     "question": "Which prop could make his England debut after Phil Vickery's broken arm?",
     "ground_truth": "8_1",
     "retrieved_chunks": [
-      "1446_0",
-      "371_0",
       "8_1",
       "363_0",
-      "6_3"
+      "1446_0",
+      "371_0",
+      "8_0"
     ],
     "hit": true
   },
@@ -351,10 +351,10 @@
     "question": "Which uncapped Sale Sharks prop was mentioned as a more likely selection for England?",
     "ground_truth": "8_3",
     "retrieved_chunks": [
-      "372_2",
-      "1545_1",
       "8_3",
-      "180_3",
+      "363_1",
+      "372_2",
+      "70_0",
       "1545_2"
     ],
     "hit": true
@@ -365,9 +365,9 @@
     "retrieved_chunks": [
       "10_0",
       "10_1",
-      "871_0",
-      "30_2",
-      "1581_0"
+      "30_0",
+      "91_3",
+      "1558_0"
     ],
     "hit": true
   },
@@ -376,10 +376,10 @@
     "ground_truth": "10_0",
     "retrieved_chunks": [
       "10_0",
-      "2189_1",
-      "1477_5",
-      "1971_3",
-      "627_2"
+      "10_2",
+      "627_2",
+      "10_1",
+      "1477_5"
     ],
     "hit": true
   },
@@ -389,9 +389,9 @@
     "retrieved_chunks": [
       "10_1",
       "10_0",
+      "627_2",
       "10_2",
-      "1581_0",
-      "10_4"
+      "143_0"
     ],
     "hit": true
   },
@@ -402,8 +402,8 @@
       "10_2",
       "10_3",
       "10_0",
-      "1534_8",
-      "10_1"
+      "1971_3",
+      "1534_8"
     ],
     "hit": true
   },
@@ -413,9 +413,9 @@
     "retrieved_chunks": [
       "139_0",
       "12_0",
-      "389_2",
-      "12_1",
-      "139_1"
+      "24_0",
+      "389_0",
+      "126_0"
     ],
     "hit": true
   },
@@ -423,11 +423,11 @@
     "question": "Which player scored two goals in the first leg against Barcelona?",
     "ground_truth": "12_1",
     "retrieved_chunks": [
-      "195_0",
-      "358_2",
+      "12_1",
+      "139_1",
       "158_2",
-      "1425_1",
-      "12_1"
+      "24_0",
+      "1425_1"
     ],
     "hit": true
   },
@@ -435,11 +435,11 @@
     "question": "Who also scored in that first leg alongside Tore Andre Flo?",
     "ground_truth": "12_1",
     "retrieved_chunks": [
-      "1566_1",
-      "358_2",
       "12_1",
-      "1604_7",
-      "139_1"
+      "139_1",
+      "1566_1",
+      "1566_2",
+      "1425_1"
     ],
     "hit": true
   },
@@ -447,11 +447,11 @@
     "question": "Which Qatari club was Marcel Desailly playing for at the time?",
     "ground_truth": "12_2",
     "retrieved_chunks": [
-      "1466_6",
-      "359_1",
-      "1436_1",
-      "139_5",
-      "12_2"
+      "12_2",
+      "139_2",
+      "139_3",
+      "12_3",
+      "12_1"
     ],
     "hit": true
   },
@@ -460,10 +460,10 @@
     "ground_truth": "5_0",
     "retrieved_chunks": [
       "5_0",
+      "173_6",
+      "2353_1",
       "1551_0",
-      "1691_0",
-      "2356_5",
-      "1471_1"
+      "1491_4"
     ],
     "hit": true
   },
@@ -472,10 +472,10 @@
     "ground_truth": "5_0",
     "retrieved_chunks": [
       "5_0",
-      "1691_0",
-      "192_3",
-      "1691_6",
-      "1551_0"
+      "1551_3",
+      "390_1",
+      "7_0",
+      "5_1"
     ],
     "hit": true
   },
@@ -485,9 +485,9 @@
     "retrieved_chunks": [
       "15_0",
       "1556_0",
-      "1459_0",
       "1502_0",
-      "1591_0"
+      "1591_0",
+      "1459_0"
     ],
     "hit": true
   },
@@ -495,11 +495,11 @@
     "question": "Which player survived an ankle injury scare against Jurgen Melzer?",
     "ground_truth": "15_0",
     "retrieved_chunks": [
-      "1523_1",
-      "1424_1",
       "15_0",
-      "144_3",
-      "58_3"
+      "1502_0",
+      "58_1",
+      "1459_0",
+      "1591_0"
     ],
     "hit": true
   },
@@ -507,11 +507,11 @@
     "question": "Who was left fuming over a series of line calls in his match against Andy Roddick?",
     "ground_truth": "15_1",
     "retrieved_chunks": [
-      "15_1",
-      "138_1",
-      "1611_7",
       "15_0",
-      "185_4"
+      "15_1",
+      "1556_0",
+      "1444_1",
+      "185_2"
     ],
     "hit": true
   },
@@ -520,8 +520,8 @@
     "ground_truth": "18_0",
     "retrieved_chunks": [
       "18_0",
-      "83_1",
-      "123_1",
+      "1489_1",
+      "1469_1",
       "18_1",
       "83_0"
     ],
@@ -534,8 +534,8 @@
       "18_0",
       "1489_0",
       "1469_0",
-      "1469_1",
-      "1489_1"
+      "1489_1",
+      "1469_1"
     ],
     "hit": true
   },
@@ -545,8 +545,8 @@
     "retrieved_chunks": [
       "1433_0",
       "21_0",
-      "95_0",
-      "1579_2",
+      "1433_2",
+      "21_2",
       "370_0"
     ],
     "hit": true
@@ -557,9 +557,9 @@
     "retrieved_chunks": [
       "370_0",
       "1433_0",
-      "95_0",
       "21_0",
-      "370_4"
+      "1611_0",
+      "95_0"
     ],
     "hit": true
   },
@@ -567,11 +567,11 @@
     "question": "Which Spaniard became the youngest player to win the Davis Cup?",
     "ground_truth": "21_2",
     "retrieved_chunks": [
+      "21_3",
+      "1433_3",
       "1433_2",
       "21_2",
-      "1433_0",
-      "21_0",
-      "370_0"
+      "370_4"
     ],
     "hit": true
   },
@@ -580,10 +580,10 @@
     "ground_truth": "21_3",
     "retrieved_chunks": [
       "1433_3",
-      "1504_7",
       "21_3",
-      "370_2",
-      "21_4"
+      "161_1",
+      "21_4",
+      "1433_4"
     ],
     "hit": true
   },
@@ -592,10 +592,10 @@
     "ground_truth": "22_0",
     "retrieved_chunks": [
       "22_0",
-      "1516_0",
-      "628_0",
+      "22_1",
+      "22_6",
       "132_0",
-      "22_1"
+      "1516_0"
     ],
     "hit": true
   },
@@ -603,11 +603,11 @@
     "question": "Which athlete was given a two-year ban after testing positive for EPO?",
     "ground_truth": "22_2",
     "retrieved_chunks": [
-      "181_9",
+      "85_6",
       "22_2",
       "663_4",
-      "644_3",
-      "1567_0"
+      "181_9",
+      "1450_0"
     ],
     "hit": true
   },
@@ -616,10 +616,10 @@
     "ground_truth": "22_3",
     "retrieved_chunks": [
       "22_3",
-      "22_0",
-      "667_1",
       "1613_2",
-      "22_6"
+      "1516_9",
+      "22_6",
+      "22_0"
     ],
     "hit": true
   },
@@ -629,9 +629,9 @@
     "retrieved_chunks": [
       "22_4",
       "22_3",
-      "177_2",
-      "181_10",
-      "1589_7"
+      "85_9",
+      "1589_6",
+      "85_4"
     ],
     "hit": true
   },
@@ -640,9 +640,9 @@
     "ground_truth": "22_6",
     "retrieved_chunks": [
       "22_6",
-      "174_2",
       "22_3",
-      "1187_0",
+      "22_0",
+      "174_2",
       "22_1"
     ],
     "hit": true
@@ -654,8 +654,8 @@
       "24_0",
       "24_1",
       "154_1",
-      "154_0",
-      "139_0"
+      "183_0",
+      "154_0"
     ],
     "hit": true
   },
@@ -664,10 +664,10 @@
     "ground_truth": "24_1",
     "retrieved_chunks": [
       "24_0",
+      "24_1",
+      "1486_0",
       "635_0",
-      "1466_6",
-      "144_0",
-      "24_1"
+      "141_3"
     ],
     "hit": true
   },
@@ -675,11 +675,11 @@
     "question": "What injury had sidelined Arjen Robben since the Blackburn match?",
     "ground_truth": "24_0",
     "retrieved_chunks": [
+      "24_0",
       "144_0",
-      "144_1",
-      "635_0",
+      "1486_0",
       "144_3",
-      "24_0"
+      "154_5"
     ],
     "hit": true
   },
@@ -690,8 +690,8 @@
       "30_0",
       "30_2",
       "30_1",
-      "1558_0",
-      "1558_4"
+      "1558_4",
+      "1558_0"
     ],
     "hit": true
   },
@@ -701,9 +701,9 @@
     "retrieved_chunks": [
       "30_1",
       "30_0",
-      "377_1",
-      "1558_2",
-      "377_0"
+      "879_4",
+      "377_0",
+      "30_2"
     ],
     "hit": true
   },
@@ -714,8 +714,8 @@
       "30_2",
       "30_0",
       "30_1",
-      "1558_4",
-      "329_1"
+      "329_1",
+      "1558_4"
     ],
     "hit": true
   },
@@ -725,9 +725,9 @@
     "retrieved_chunks": [
       "32_0",
       "60_4",
-      "32_1",
       "138_0",
-      "20_1"
+      "32_1",
+      "1511_1"
     ],
     "hit": true
   },
@@ -735,11 +735,11 @@
     "question": "Which world number one beat Gaston Gaudio while Henman won his match?",
     "ground_truth": "32_0",
     "retrieved_chunks": [
-      "93_4",
-      "159_0",
       "32_0",
-      "159_2",
-      "159_1"
+      "159_0",
+      "93_3",
+      "60_0",
+      "32_1"
     ],
     "hit": true
   },
@@ -747,11 +747,11 @@
     "question": "Which American said he felt pretty good after coming back from more than two months out?",
     "ground_truth": "32_4",
     "retrieved_chunks": [
-      "1613_6",
       "32_4",
-      "1160_3",
-      "138_4",
-      "147_4"
+      "144_3",
+      "93_3",
+      "1502_2",
+      "1562_3"
     ],
     "hit": true
   },
@@ -760,10 +760,10 @@
     "ground_truth": "47_0",
     "retrieved_chunks": [
       "47_0",
-      "166_0",
-      "47_1",
       "166_1",
-      "354_6"
+      "47_1",
+      "166_0",
+      "47_2"
     ],
     "hit": true
   },
@@ -772,33 +772,33 @@
     "ground_truth": "47_3",
     "retrieved_chunks": [
       "47_1",
-      "47_0",
-      "166_0",
+      "47_3",
+      "166_1",
       "47_4",
-      "166_1"
+      "47_0"
     ],
-    "hit": false
+    "hit": true
   },
   {
     "question": "Which defender did Moyes say would never have gone down in the same way?",
     "ground_truth": "47_3",
     "retrieved_chunks": [
-      "47_1",
+      "47_3",
       "47_4",
       "47_0",
-      "1486_5",
-      "642_5"
+      "47_1",
+      "47_2"
     ],
-    "hit": false
+    "hit": true
   },
   {
     "question": "Which manager was unhappy about Celtic's fixture against Valenciana?",
     "ground_truth": "53_0",
     "retrieved_chunks": [
       "53_0",
-      "194_5",
-      "194_0",
-      "73_4",
+      "118_0",
+      "649_0",
+      "118_3",
       "1528_1"
     ],
     "hit": true
@@ -809,9 +809,9 @@
     "retrieved_chunks": [
       "53_2",
       "53_0",
+      "53_1",
       "26_0",
-      "1572_3",
-      "26_3"
+      "143_0"
     ],
     "hit": true
   },
@@ -821,9 +821,9 @@
     "retrieved_chunks": [
       "178_0",
       "333_3",
+      "1434_0",
       "97_2",
-      "341_0",
-      "20_0"
+      "20_1"
     ],
     "hit": true
   },
@@ -832,10 +832,10 @@
     "ground_truth": "178_1",
     "retrieved_chunks": [
       "178_1",
+      "1434_0",
+      "85_11",
       "178_0",
-      "60_12",
-      "628_2",
-      "930_6"
+      "628_2"
     ],
     "hit": true
   },
@@ -845,9 +845,9 @@
     "retrieved_chunks": [
       "178_1",
       "178_0",
-      "60_12",
+      "1434_0",
       "628_2",
-      "930_6"
+      "1512_4"
     ],
     "hit": true
   },
@@ -857,14 +857,26 @@
     "retrieved_chunks": [
       "635_0",
       "24_0",
-      "144_0",
+      "635_1",
       "24_1",
-      "635_1"
+      "1486_0"
     ],
     "hit": true
   },
   {
     "question": "Which club's medical coordinator said he had put everything right with Robben's foot?",
+    "ground_truth": "635_2",
+    "retrieved_chunks": [
+      "635_2",
+      "635_1",
+      "144_0",
+      "144_1",
+      "144_2"
+    ],
+    "hit": true
+  },
+  {
+    "question": "Which doctor treated Arjen Robben after his fractured foot?",
     "ground_truth": "635_2",
     "retrieved_chunks": [
       "635_1",
@@ -876,26 +888,14 @@
     "hit": true
   },
   {
-    "question": "Which doctor treated Arjen Robben after his fractured foot?",
-    "ground_truth": "635_2",
-    "retrieved_chunks": [
-      "144_0",
-      "635_1",
-      "24_0",
-      "635_0",
-      "144_1"
-    ],
-    "hit": false
-  },
-  {
     "question": "Which Barcelona assistant coach called Chelsea's complaint pathetic?",
     "ground_truth": "643_0",
     "retrieved_chunks": [
       "643_0",
-      "1565_0",
-      "0_0",
+      "1558_1",
+      "1581_2",
       "643_4",
-      "119_2"
+      "1565_0"
     ],
     "hit": true
   },
@@ -905,9 +905,9 @@
     "retrieved_chunks": [
       "643_2",
       "1581_2",
+      "643_1",
       "643_3",
-      "1149_2",
-      "643_1"
+      "643_4"
     ],
     "hit": true
   },
@@ -916,10 +916,10 @@
     "ground_truth": "643_4",
     "retrieved_chunks": [
       "643_4",
-      "340_0",
-      "648_3",
-      "340_4",
-      "1539_2"
+      "1481_1",
+      "156_1",
+      "1539_1",
+      "340_1"
     ],
     "hit": true
   },
@@ -927,35 +927,35 @@
     "question": "Which coach criticized Mourinho for not speaking to the media after the match?",
     "ground_truth": "643_3",
     "retrieved_chunks": [
-      "126_3",
-      "122_0",
-      "122_4",
+      "643_3",
       "1581_1",
-      "122_1"
+      "1581_0",
+      "122_0",
+      "1581_2"
     ],
-    "hit": false
+    "hit": true
   },
   {
     "question": "Who scored the first-minute goal against Barcelona?",
     "ground_truth": "1425_0",
     "retrieved_chunks": [
+      "1425_0",
       "1425_1",
-      "358_2",
       "158_2",
-      "389_1",
-      "155_1"
+      "13_0",
+      "358_2"
     ],
-    "hit": false
+    "hit": true
   },
   {
     "question": "Who scored a brace for Real Madrid against Espanyol?",
     "ground_truth": "1425_1",
     "retrieved_chunks": [
-      "631_2",
-      "1462_0",
-      "1462_2",
-      "1425_2",
-      "1425_1"
+      "1425_1",
+      "158_0",
+      "158_1",
+      "1617_1",
+      "631_2"
     ],
     "hit": true
   },
@@ -963,11 +963,11 @@
     "question": "Which player came off with a shoulder injury but was expected to be fit for England's game?",
     "ground_truth": "1425_1",
     "retrieved_chunks": [
-      "82_3",
       "1425_2",
       "1425_1",
-      "78_1",
-      "25_1"
+      "70_4",
+      "334_1",
+      "1515_3"
     ],
     "hit": true
   },
@@ -977,9 +977,9 @@
     "retrieved_chunks": [
       "1425_2",
       "158_1",
+      "158_2",
       "1582_0",
-      "631_2",
-      "1612_1"
+      "631_2"
     ],
     "hit": true
   },
@@ -987,11 +987,11 @@
     "question": "Which striker scored twice for Charlton in the win over Norwich?",
     "ground_truth": "11_0",
     "retrieved_chunks": [
-      "96_0",
       "11_0",
+      "96_6",
+      "137_3",
       "96_5",
-      "96_4",
-      "96_6"
+      "1518_0"
     ],
     "hit": true
   },
@@ -1000,10 +1000,10 @@
     "ground_truth": "11_0",
     "retrieved_chunks": [
       "11_0",
-      "14_1",
+      "106_0",
+      "193_2",
       "1476_0",
-      "1476_1",
-      "397_5"
+      "14_1"
     ],
     "hit": true
   },
@@ -1012,10 +1012,10 @@
     "ground_truth": "9_0",
     "retrieved_chunks": [
       "9_0",
-      "17_3",
       "1518_0",
+      "1550_0",
       "1475_3",
-      "138_4"
+      "369_3"
     ],
     "hit": true
   },
@@ -1023,11 +1023,11 @@
     "question": "Which goalkeeper made a good save from Richard Johnson?",
     "ground_truth": "9_1",
     "retrieved_chunks": [
-      "9_1",
-      "136_3",
       "1493_6",
-      "1486_4",
-      "96_4"
+      "9_1",
+      "29_1",
+      "116_4",
+      "1486_4"
     ],
     "hit": true
   },
@@ -1035,11 +1035,11 @@
     "question": "Who was asked to put the team out of its misery after clearing five metres in training?",
     "ground_truth": "1_0",
     "retrieved_chunks": [
-      "1552_6",
-      "194_6",
       "1_0",
-      "10_2",
-      "381_1"
+      "1552_6",
+      "1552_5",
+      "381_1",
+      "10_2"
     ],
     "hit": true
   },
@@ -1047,22 +1047,22 @@
     "question": "Which Kenyan runner was said to have been well beaten by Markos Geneti?",
     "ground_truth": "1_8",
     "retrieved_chunks": [
+      "1_8",
+      "1_7",
       "1465_2",
-      "84_1",
-      "179_2",
-      "61_2",
-      "90_0"
+      "112_1",
+      "179_2"
     ],
-    "hit": false
+    "hit": true
   },
   {
     "question": "Which player could be considered after switching from the wing for Northampton?",
     "ground_truth": "6_3",
     "retrieved_chunks": [
       "6_3",
-      "1446_4",
-      "638_5",
-      "372_2",
+      "41_1",
+      "1461_1",
+      "6_4",
       "1569_5"
     ],
     "hit": true
@@ -1071,11 +1071,11 @@
     "question": "Which player said it was fantastic to get the opportunity to play for England?",
     "ground_truth": "8_2",
     "retrieved_chunks": [
-      "1526_2",
       "8_2",
-      "1443_1",
-      "351_3",
-      "16_3"
+      "1526_1",
+      "1526_2",
+      "116_6",
+      "351_4"
     ],
     "hit": true
   },
@@ -1083,11 +1083,11 @@
     "question": "Which club does Andrew Sheridan represent?",
     "ground_truth": "8_3",
     "retrieved_chunks": [
-      "372_2",
-      "1466_6",
-      "1436_1",
       "8_3",
-      "363_1"
+      "363_1",
+      "372_2",
+      "1563_0",
+      "1542_0"
     ],
     "hit": true
   },
@@ -1095,11 +1095,11 @@
     "question": "Who forced Tim Howard to make a save in the replay against Exeter City?",
     "ground_truth": "7_1",
     "retrieved_chunks": [
+      "7_0",
       "7_1",
       "7_3",
-      "7_0",
-      "7_4",
-      "361_0"
+      "361_0",
+      "361_4"
     ],
     "hit": true
   },
@@ -1107,11 +1107,11 @@
     "question": "Which player dragged a left-foot effort badly wide in the replay?",
     "ground_truth": "7_3",
     "retrieved_chunks": [
-      "7_5",
-      "13_4",
       "7_3",
-      "1596_5",
-      "764_1"
+      "194_2",
+      "144_3",
+      "7_5",
+      "634_2"
     ],
     "hit": true
   },
@@ -1123,7 +1123,7 @@
       "12_3",
       "139_4",
       "12_4",
-      "12_0"
+      "139_2"
     ],
     "hit": true
   },
@@ -1135,7 +1135,7 @@
       "12_3",
       "139_4",
       "12_4",
-      "1436_1"
+      "139_0"
     ],
     "hit": true
   },
@@ -1144,10 +1144,10 @@
     "ground_truth": "30_1",
     "retrieved_chunks": [
       "30_1",
-      "1558_0",
-      "1532_1",
-      "1784_1",
-      "30_0"
+      "30_0",
+      "116_5",
+      "1569_5",
+      "1532_1"
     ],
     "hit": true
   },
@@ -1156,10 +1156,10 @@
     "ground_truth": "30_2",
     "retrieved_chunks": [
       "30_2",
-      "153_1",
-      "1581_0",
-      "365_4",
-      "30_1"
+      "30_0",
+      "640_0",
+      "1558_2",
+      "153_1"
     ],
     "hit": true
   },
@@ -1168,10 +1168,10 @@
     "ground_truth": "22_4",
     "retrieved_chunks": [
       "22_4",
-      "22_5",
+      "85_9",
       "369_5",
-      "177_2",
-      "2248_3"
+      "22_3",
+      "22_5"
     ],
     "hit": true
   },
@@ -1181,9 +1181,9 @@
     "retrieved_chunks": [
       "24_0",
       "635_0",
-      "144_0",
       "1486_0",
-      "24_1"
+      "24_1",
+      "155_5"
     ],
     "hit": true
   },
@@ -1191,11 +1191,11 @@
     "question": "Which former Everton midfielder scored his first goal for Real Madrid against Espanyol?",
     "ground_truth": "1425_1",
     "retrieved_chunks": [
-      "158_0",
-      "1462_0",
       "1425_1",
-      "125_2",
-      "1462_2"
+      "158_0",
+      "116_5",
+      "158_1",
+      "631_2"
     ],
     "hit": true
   }

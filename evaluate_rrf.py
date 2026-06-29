@@ -4,6 +4,8 @@ import numpy as np
 import faiss
 from sentence_transformers import SentenceTransformer
 from sklearn.feature_extraction.text import TfidfVectorizer
+from sentence_transformers import CrossEncoder
+
 
 # ======================================
 # LOAD DATA
@@ -17,6 +19,11 @@ with open("qa_dataset_clean.json", "r", encoding="utf-8") as f:
 
 index = faiss.read_index("bbc_faiss.index")
 
+
+
+reranker = CrossEncoder(
+    "cross-encoder/ms-marco-MiniLM-L-6-v2"
+)
 
 model = SentenceTransformer(
     "sentence-transformers/all-mpnet-base-v2"
@@ -84,7 +91,35 @@ def lexical_retrieve(question, top_k=20):
         for i in top_indices
         if lex_scores[i] > 0
     ]
+# ======================================
+# CROSS ENCODER RE-RANKING
+# ======================================
 
+def rerank(question, candidate_ids, final_k=5):
+
+    pairs = []
+
+    for uid in candidate_ids:
+
+        row_idx = chunkid_to_row[uid]
+
+        chunk_text = chunks[row_idx]["chunk_text"]
+
+        pairs.append((question, chunk_text))
+
+    scores = reranker.predict(pairs)
+
+    ranked = sorted(
+        zip(candidate_ids, scores),
+        key=lambda x: x[1],
+        reverse=True
+    )
+
+    return [
+        uid
+        for uid, _
+        in ranked[:final_k]
+    ]
 def retrieve(
     question,
     top_k=5,
@@ -93,19 +128,30 @@ def retrieve(
     rrf_k=60
 ):
 
+    # -----------------------------
+    # Dense Retrieval
+    # -----------------------------
+
     sem_results = semantic_retrieve(
         question,
         top_k=sem_k
     )
+
+    # -----------------------------
+    # Lexical Retrieval
+    # -----------------------------
 
     lex_results = lexical_retrieve(
         question,
         top_k=lex_k
     )
 
+    # -----------------------------
+    # Reciprocal Rank Fusion
+    # -----------------------------
+
     rrf_scores = {}
 
-    # Dense retrieval ranks
     for rank, (uid, _) in enumerate(
         sem_results,
         start=1
@@ -116,7 +162,6 @@ def retrieve(
             + 1 / (rrf_k + rank)
         )
 
-    # Lexical retrieval ranks
     for rank, (uid, _) in enumerate(
         lex_results,
         start=1
@@ -127,17 +172,37 @@ def retrieve(
             + 1 / (rrf_k + rank)
         )
 
+    # -----------------------------
+    # Sort by RRF score
+    # -----------------------------
+
     ranking = sorted(
         rrf_scores.items(),
         key=lambda x: x[1],
         reverse=True
     )
 
-    return [
+    # -----------------------------
+    # Take Top-20 candidates
+    # -----------------------------
+
+    candidate_ids = [
         uid
         for uid, _
-        in ranking[:top_k]
+        in ranking[:20]
     ]
+
+    # -----------------------------
+    # CrossEncoder Re-ranking
+    # -----------------------------
+
+    final_ranking = rerank(
+        question,
+        candidate_ids,
+        final_k=top_k
+    )
+
+    return final_ranking
 # ======================================
 # METRICS
 # ======================================
