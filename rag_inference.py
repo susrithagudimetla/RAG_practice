@@ -1,4 +1,5 @@
 import json
+import os
 from pathlib import Path
 
 import numpy as np
@@ -6,6 +7,8 @@ import faiss
 
 from sentence_transformers import SentenceTransformer
 from sklearn.feature_extraction.text import TfidfVectorizer
+
+from qdrant_store import search_qdrant
 
 BASE_DIR = Path(__file__).resolve().parent
 
@@ -20,14 +23,31 @@ with open(
 ) as f:
     chunks = json.load(f)
 
-index = faiss.read_index(
+'''index = faiss.read_index(
     str(BASE_DIR / "bbc_faiss.index")
 )
 
 model = SentenceTransformer(
     "sentence-transformers/all-mpnet-base-v2"
 )
+USE_QDRANT = True
+##USE_QDRANT = os.getenv("USE_QDRANT", "0").lower() in {"1", "true", "yes", "on"}
+'''
 
+model = SentenceTransformer(
+    "sentence-transformers/all-mpnet-base-v2"
+)
+
+USE_QDRANT = True
+# or
+# USE_QDRANT = os.getenv("USE_QDRANT", "0").lower() in {"1","true","yes","on"}
+
+if not USE_QDRANT:
+    index = faiss.read_index(
+        str(BASE_DIR / "bbc_faiss.index")
+    )
+else:
+    index = None
 # =====================================
 # BUILD MAPPINGS
 # =====================================
@@ -72,6 +92,21 @@ def semantic_retrieve(
     question,
     top_k=20
 ):
+
+    if USE_QDRANT:
+        print("Using Qdrant")
+        try:
+            results = search_qdrant(
+                question,
+                top_k=top_k,
+                model=model
+            )
+            return [
+                (uid, float(score))
+                for uid, score in results
+            ]
+        except Exception as exc:  # pragma: no cover - defensive path
+            print(f"Qdrant search failed, falling back to FAISS: {exc}")
 
     q_emb = model.encode(
         [question],
